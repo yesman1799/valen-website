@@ -21,9 +21,6 @@
           <h3 class="text-xl font-semibold text-secondary mb-2">Rekonstrukce</h3>
           <p class="text-gray-600">Komplexní rekonstrukce interiérů a exteriérů.</p>
         </div>
-
-        <!-- Service 4 (optional) -->
-        
       </div>
 
       <div class="text-center mt-8">
