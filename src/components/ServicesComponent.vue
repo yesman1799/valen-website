@@ -23,10 +23,7 @@
         </div>
 
         <!-- Service 4 (optional) -->
-        <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition">
-          <h3 class="text-xl font-semibold text-secondary mb-2">Střešní konstrukce</h3>
-          <p class="text-gray-600">Montáž a opravy střech různých typů.</p>
-        </div>
+        
       </div>
 
       <div class="text-center mt-8">

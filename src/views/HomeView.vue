@@ -3,8 +3,8 @@
     <!-- Carousel Component -->
     <CarouselComponent />
 
-    <!-- Hero Section Content -->
-    <div class="absolute inset-0 flex flex-col justify-center items-start text-white px-10">
+    <!-- Hero Section Content (Fixed Layering) -->
+    <div class="absolute inset-0 flex flex-col justify-center items-start text-white px-10 z-10">
       <h1 class="text-5xl font-bold mb-4">Rekonstrukce a novostavba objektů</h1>
       <p class="text-lg mb-6">Kvalita, tradice a spolehlivost od roku 2009</p>
       <router-link to="/contact">
@@ -20,19 +20,24 @@
 
   <!-- Services Section -->
   <ServicesComponent />
+
+  <!-- Reference Carousel Section -->
+  <ReferenceCarousel />
 </template>
 
 <script>
 import CarouselComponent from '@/components/CarouselComponent.vue'
 import AboutUsComponent from '@/components/AboutUsComponent.vue'
 import ServicesComponent from '@/components/ServicesComponent.vue'
+import ReferenceCarousel from '@/components/ReferenceCarousel.vue'
 
 export default {
   name: 'HomeView',
   components: { 
     CarouselComponent,
     AboutUsComponent,
-    ServicesComponent
+    ServicesComponent,
+    ReferenceCarousel
   }
 }
 </script>
