@@ -23,6 +23,9 @@
 
   <!-- Reference Carousel Section -->
   <ReferenceCarousel />
+
+  <!-- Equipment Preview Section -->
+  <EquipmentPreview />
 </template>
 
 <script>
@@ -30,6 +33,7 @@ import CarouselComponent from '@/components/CarouselComponent.vue'
 import AboutUsComponent from '@/components/AboutUsComponent.vue'
 import ServicesComponent from '@/components/ServicesComponent.vue'
 import ReferenceCarousel from '@/components/ReferenceCarousel.vue'
+import EquipmentPreview from '@/components/EquipmentPreview.vue';
 
 export default {
   name: 'HomeView',
@@ -37,7 +41,8 @@ export default {
     CarouselComponent,
     AboutUsComponent,
     ServicesComponent,
-    ReferenceCarousel
+    ReferenceCarousel,
+    EquipmentPreview
   }
 }
 </script>

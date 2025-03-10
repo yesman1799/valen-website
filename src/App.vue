@@ -1,7 +1,9 @@
 <template>
-  <div class="font-sans text-gray-900">
+  <div class="flex flex-col min-h-screen">
     <Navbar />
-    <router-view />
+    <div class="flex-grow">
+      <router-view />
+    </div>
     <Footer />
   </div>
 </template>

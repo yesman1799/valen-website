@@ -19,6 +19,9 @@
             <router-link to="/references" class="hover:text-primary transition">Reference</router-link>
           </li>
           <li>
+          <router-link to="/equipment" class="hover:text-primary transition">Technika</router-link>
+          </li>
+          <li>
             <router-link to="/contact" class="hover:text-primary transition">Kontakt</router-link>
           </li>
         </ul>

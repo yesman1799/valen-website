@@ -1,13 +1,16 @@
 <template>
-  <footer class="bg-secondary text-white py-6">
-    <div class="container mx-auto text-center">
-      <p class="text-lg">&copy; 2009 - Valen s.r.o.</p>
-      <p class="text-sm text-gray-200">
-        Náměstí Komenského 536, Dobříš 263 01 | Tel: 777 564 235 | Email: valen@centrum.cz
-      </p>
-    </div>
+  <footer class="bg-gray-800 text-white text-center py-4 mt-auto">
+    <p>&copy; 2024 Valen.cz – Všechna práva vyhrazena</p>
   </footer>
 </template>
+
+<style scoped>
+/* Ensure footer stays at the bottom */
+footer {
+  width: 100%;
+}
+</style>
+
 
 <script>
 export default {
