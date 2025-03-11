@@ -3,7 +3,7 @@
     <div class="container mx-auto px-6 flex justify-between items-center">
       <!-- Brand Name -->
       <router-link to="/" class="text-2xl font-bold text-secondary">
-        Valen s.r.o.
+        <img src="/images/logo.jpg" alt="Logo" class="h-12" />
       </router-link>
 
       <!-- Navigation -->

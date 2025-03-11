@@ -1,30 +1,55 @@
 <template>
-  <section class="container mx-auto px-6 py-16">
-    <h2 class="text-3xl font-bold text-secondary text-center mb-8">Naše služby</h2>
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-      <!-- Card 1 -->
-      <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition">
-        <h3 class="text-xl font-semibold text-secondary mb-2">Zednické práce</h3>
-        <p class="text-gray-600">Kompletní realizace zděných konstrukcí a opravy.</p>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition">
-        <h3 class="text-xl font-semibold text-secondary mb-2">Novostavby</h3>
-        <p class="text-gray-600">Realizace moderních rodinných domů a komerčních objektů.</p>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="bg-white shadow-lg rounded-lg p-6 hover:shadow-2xl transition">
-        <h3 class="text-xl font-semibold text-secondary mb-2">Rekonstrukce</h3>
-        <p class="text-gray-600">Komplexní rekonstrukce interiérů a exteriérů.</p>
+  <div class="page-content">
+    <div class="container mx-auto p-6">
+      <h1 class="text-4xl font-bold text-center text-secondary mb-10">Naše Služby</h1>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+        <div class="bg-white shadow-lg rounded-lg p-6 border-l-4 border-primary">
+          <h2 class="text-2xl font-semibold mb-4 text-textDark">Inženýrské sítě</h2>
+          <ul class="list-disc list-inside text-textDark">
+            <li>Výkop a pokládka kanalizace a Vodovodu (Komplet)</li>
+          </ul>
+        </div>
+        
+        <div class="bg-white shadow-lg rounded-lg p-6 border-l-4 border-secondary">
+          <h2 class="text-2xl font-semibold mb-4 text-textDark">Rekonstrukce Ulic</h2>
+          <ul class="list-disc list-inside text-textDark">
+            <li>Obnova povrchu</li>
+            <li>Pokládka zámkové dlažby, Obrubníků</li>
+            <li>Realizace Asfaltů</li>
+          </ul>
+        </div>
+        
+        <div class="bg-white shadow-lg rounded-lg p-6 border-l-4 border-accent">
+          <h2 class="text-2xl font-semibold mb-4 text-textDark">Bourací práce</h2>
+          <ul class="list-disc list-inside text-textDark">
+            <li>Demolice mostů</li>
+            <li>Demolice rodinných a bytových domů</li>
+          </ul>
+        </div>
+        
+        <div class="bg-white shadow-lg rounded-lg p-6 border-l-4 border-primary">
+          <h2 class="text-2xl font-semibold mb-4 text-textDark">Stavba Rodinného domu na klíč</h2>
+          <ul class="list-disc list-inside text-textDark">
+            <li>Hrubá stavba</li>
+            <li>Tesařské práce</li>
+            <li>Zednické práce</li>
+          </ul>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
+  
 </template>
 
 <script>
 export default {
-  name: 'ServicesView'
-}
+  name: "ServicesView",
+};
 </script>
+
+<style scoped>
+.container {
+  max-width: 1200px;
+}
+</style>
