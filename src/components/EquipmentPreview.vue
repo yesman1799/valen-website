@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto p-8 text-center">
-    <h2 class="text-4xl font-extrabold text-gray-900 mb-10 tracking-wide">Vybraná Technika</h2>
+    <h2 class="text-3xl sm:text-4xl font-extrabold mb-12 text-secondary tracking-wide">Vybraná Technika</h2>
     
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
       <div v-for="(machine, index) in selectedMachines" :key="index" 
