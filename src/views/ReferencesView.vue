@@ -1,22 +1,22 @@
 <template>
-  <div class="container mx-auto p-6 page-content">
-    <h1 class="text-4xl font-bold text-center text-secondary mb-10">Naše Reference</h1>
+  <div class="container mx-auto p-6 sm:p-8 pt-32 sm:pt-40 md:pt-48">
+    <h1 class="text-4xl sm:text-5xl font-extrabold text-center mb-8 text-secondary tracking-wide">Naše Reference</h1>
     
     <div class="flex flex-wrap justify-center gap-4 mb-6">
       <button 
         v-for="category in categories" 
         :key="category" 
         @click="toggleCategory(category)" 
-        :class="['px-4 py-2 rounded-lg border', selectedCategories.includes(category) ? 'bg-secondary text-white' : 'bg-white text-primary border-primary']"
+        :class="['px-4 py-2 rounded-lg border font-semibold', selectedCategories.includes(category) ? 'bg-secondary text-white' : 'bg-white text-primary border-primary']"
       >
         {{ category }}
       </button>
     </div>
     
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
-      <div v-for="reference in filteredReferences" :key="reference.name" class="bg-white shadow-lg rounded-lg p-6 border-l-4 border-secondary">
-        <h2 class="text-2xl font-semibold mb-4 text-textDark">{{ reference.name }}</h2>
-        <p class="text-textDark">{{ reference.description }}</p>
+      <div v-for="reference in filteredReferences" :key="reference.name" class="bg-white shadow-lg rounded-xl p-6 border-l-4 border-secondary hover:shadow-2xl transition-transform transform hover:scale-105">
+        <h2 class="text-xl sm:text-2xl font-semibold mb-3 text-textDark">{{ reference.name }}</h2>
+        <p class="text-base sm:text-lg text-gray-700">{{ reference.description }}</p>
         <p class="text-sm text-gray-500 mt-2">Realizace: {{ reference.date }}</p>
       </div>
     </div>
@@ -51,7 +51,7 @@ export default {
         { name: 'Hostivař', description: 'Zemní práce', category: 'Zemní práce', date: '2024' },
         { name: 'Kladno - Vrapická', description: 'Pokládka veřejné kanalizace, realizace asfaltů', category: 'Kanalizace a vodovod', date: '2024' },
         { name: 'Okružní křižovatky Kladno', description: 'Kruhový objezd, pokládka obrubníků, příprava pod asfalty', category: 'Rekonstrukce silnic', date: '2024' }
-      ]
+      ] // Keeping the existing data structure intact
     };
   },
   computed: {
