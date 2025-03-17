@@ -1,18 +1,18 @@
 <template>
-  <div class="container mx-auto p-6 page-content">
-    <h1 class="text-4xl font-bold text-center text-primary mb-10">Naše Stavební Technika</h1>
+  <div class="container mx-auto p-6 sm:p-8 min-h-screen bg-white pt-32 sm:pt-36">
+    <h1 class="text-4xl sm:text-5xl font-extrabold text-center mb-10 text-gray-900 tracking-wide">Naše Technika</h1>
     
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div v-for="equipment in equipments" :key="equipment.name" class="bg-white shadow-lg rounded-lg overflow-hidden">
-        <div class="image-container">
-          <img :src="'/images/' + equipment.image" :alt="equipment.name" class="object-cover">
-        </div>
-        <div class="p-4">
-          <h2 class="text-xl font-semibold text-primary">{{ equipment.name }}</h2>
-          <p class="text-gray-600">{{ equipment.description }}</p>
+    <section v-for="(category, index) in equipmentCategories" :key="index" class="mb-12 sm:mb-16">
+      <h2 class="text-2xl sm:text-3xl font-bold text-gray-800 border-b-4 border-blue-500 pb-2 sm:pb-3 mb-6 sm:mb-8 uppercase">{{ category.name }}</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10">
+        <div v-for="(machine, idx) in category.machines" :key="idx" 
+             class="bg-gradient-to-br from-gray-100 to-white border border-gray-300 p-4 sm:p-6 rounded-xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+          <img :src="getImage(machine.image)" :alt="machine.name" 
+               class="w-full h-48 sm:h-56 object-cover rounded-lg mb-4 sm:mb-6 shadow-md">
+          <h3 class="text-xl sm:text-2xl font-semibold text-gray-900 text-center uppercase tracking-wider">{{ machine.name }}</h3>
         </div>
       </div>
-    </div>
+    </section>
   </div>
 </template>
 
@@ -20,40 +20,48 @@
 export default {
   data() {
     return {
-      equipments: [
-        { name: 'Bobcat nakladač', image: 'bobcat.jpg', description: 'Kompaktní a všestranný nakladač pro manipulaci s materiálem.' },
-        { name: 'Yanmar minibagr', image: 'yanmar.jpg', description: 'Malý pásový bagr vhodný pro precizní výkopové práce.' },
-        { name: 'CAT 323 pásový bagr', image: 'cat323.jpg', description: 'Výkonný hydraulický bagr pro těžké zemní práce.' },
-        { name: 'Mercedes-Benz Arocs sklápěč', image: 'mercedes-arocs.jpg', description: 'Robustní sklápěč určený pro přepravu sypkých materiálů.' },
-        { name: 'Scania G400 sklápěč', image: 'scania.jpg', description: 'Těžký nákladní vůz pro odvoz zeminy a sutí.' }
+      equipmentCategories: [
+        {
+          name: 'Pásové rypadla',
+          machines: [
+            { name: 'Yanmar Pásové Rypadlo', image: 'yanmar_pasove.jpg' },
+            { name: 'CASE Pásové Rypadlo', image: 'case_pasove.jpg' }
+          ]
+        },
+        {
+          name: 'Kolové rypadla',
+          machines: [
+            { name: 'Bobcat Kolové Rypadlo', image: 'bobcat_kolove.jpg' },
+            { name: 'CASE Kolové Rypadlo', image: 'case_kolove.jpg' }
+          ]
+        },
+        {
+          name: 'Nákladní automobily',
+          machines: [
+            { name: 'Mercedes Arocs', image: 'mercedes_arocs_1.jpg' },
+            { name: 'Mercedes Arocs', image: 'mercedes_arocs_2.jpg' },
+            { name: 'Scania G400', image: 'scania_g400.jpg' }
+          ]
+        },
+        {
+          name: 'Ostatní stroje',
+          machines: [
+            { name: 'Kolový Dumper', image: 'kolovy_dumper.jpg' }
+          ]
+        }
       ]
     };
+  },
+  methods: {
+    getImage(fileName) {
+      return new URL(`/src/assets/equipment/${fileName}`, import.meta.url).href;
+    }
   }
 };
 </script>
 
 <style scoped>
 .container {
-  max-width: 1200px;
-}
-
-.page-content {
-  padding-top: 100px; /* Adjust if needed */
-  padding-bottom: 50px; /* Ensures spacing above footer */
-}
-
-.image-container {
-  width: 100%;
-  height: 250px; /* Increased height for better image display */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #f8f8f8;
-}
-
-.image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Ensures the full image fits nicely without being distorted */
+  max-width: 1400px;
 }
 </style>

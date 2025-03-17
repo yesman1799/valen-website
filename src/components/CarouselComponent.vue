@@ -37,9 +37,7 @@ export default defineComponent({
   components: { Carousel, Slide },
   setup() {
     const images = ref([
-      '/images/construction1.jpg',
-      '/images/construction2.jpg',
-      '/images/construction3.jpg'
+      '/images/Sidlo.jpg'
     ])
     const currentSlide = ref(0)
 

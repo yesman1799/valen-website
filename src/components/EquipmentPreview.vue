@@ -1,23 +1,19 @@
 <template>
-  <div class="py-10 bg-gray-100">
-    <h2 class="text-3xl font-bold text-center text-primary mb-6">Vybraná Technika</h2>
-    <div class="flex flex-wrap justify-center gap-6">
-      <div
-        v-for="machine in featuredMachines"
-        :key="machine.id"
-        class="bg-white rounded-lg shadow-lg overflow-hidden w-80 transition transform hover:scale-105"
-      >
-        <img :src="machine.image" :alt="machine.name" class="w-full h-40 object-cover" />
-        <div class="p-4">
-          <h3 class="text-lg font-semibold text-secondary">{{ machine.name }}</h3>
-        </div>
+  <div class="container mx-auto p-8 text-center">
+    <h2 class="text-4xl font-extrabold text-gray-900 mb-10 tracking-wide">Vybraná Technika</h2>
+    
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      <div v-for="(machine, index) in selectedMachines" :key="index" 
+           class="bg-white border border-gray-300 p-6 rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
+        <img :src="getImage(machine.image)" :alt="machine.name" 
+             class="w-full h-56 object-cover rounded-xl mb-6 shadow-md">
+        <h3 class="text-2xl font-semibold text-gray-900 uppercase tracking-wider">{{ machine.name }}</h3>
       </div>
     </div>
-    <div class="text-center mt-6">
-      <router-link to="/equipment">
-        <button class="bg-primary text-black px-6 py-3 rounded-lg font-semibold hover:bg-secondary transition">
-            Zobrazit Veškerou Techniku
-        </button>
+    
+    <div class="mt-12">
+      <router-link to="/equipment" class="bg-primary text-black px-6 py-3 rounded-lg font-semibold hover:bg-secondary transition">
+        Zobrazit všechnu techniku
       </router-link>
     </div>
   </div>
@@ -27,12 +23,23 @@
 export default {
   data() {
     return {
-      featuredMachines: [
-        { id: 1, name: 'Bobcat nakladač', image: '/images/bobcat.jpg' },
-        { id: 2, name: 'CAT 323 pásový bagr', image: '/images/cat323.jpg' },
-        { id: 3, name: 'Mercedes-Benz Arocs', image: '/images/mercedes-arocs.jpg' }
+      selectedMachines: [
+        { name: 'Mercedes Arocs', image: 'mercedes_arocs_1.jpg' },
+        { name: 'CASE Pásové Rypadlo', image: 'case_pasove.jpg' },
+        { name: 'Kolový Dumper', image: 'kolovy_dumper.jpg' }
       ]
     };
+  },
+  methods: {
+    getImage(fileName) {
+      return new URL(`/src/assets/equipment/${fileName}`, import.meta.url).href;
+    }
   }
 };
 </script>
+
+<style scoped>
+.container {
+  max-width: 1200px;
+}
+</style>
