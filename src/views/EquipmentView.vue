@@ -7,9 +7,8 @@
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         <div v-for="(machine, idx) in category.machines" :key="idx" 
              class="bg-white border border-gray-300 p-4 sm:p-5 rounded-xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
-          <img :src="getImage(machine.image)" :alt="machine.name" 
-               class="w-full h-44 sm:h-52 object-cover rounded-lg mb-4 shadow-md">
-          <h3 class="text-lg sm:text-xl font-semibold text-gray-900 text-center uppercase tracking-wider">{{ machine.name }}</h3>
+          <img :src="getImage(machine.image)" :alt="'Technika'" 
+               class="w-full h-44 sm:h-52 object-cover rounded-lg shadow-md">
         </div>
       </div>
     </section>
@@ -24,29 +23,29 @@ export default {
         {
           name: 'Pásové rypadla',
           machines: [
-            { name: 'Yanmar Pásové Rypadlo', image: 'yanmar_pasove.jpg' },
-            { name: 'CASE Pásové Rypadlo', image: 'case_pasove.jpg' }
+            { image: 'yanmar_pasove.jpg' },
+            { image: 'case_pasove.jpg' }
           ]
         },
         {
           name: 'Kolové rypadla',
           machines: [
-            { name: 'Bobcat Kolové Rypadlo', image: 'bobcat_kolove.jpg' },
-            { name: 'CASE Kolové Rypadlo', image: 'case_kolove.jpg' }
+            { image: 'bobcat_kolove.jpg' },
+            { image: 'case_kolove.jpg' }
           ]
         },
         {
           name: 'Nákladní automobily',
           machines: [
-            { name: 'Mercedes Arocs', image: 'mercedes_arocs_1.jpg' },
-            { name: 'Mercedes Arocs', image: 'mercedes_arocs_2.jpg' },
-            { name: 'Scania G400', image: 'scania_g400.jpg' }
+            { image: 'mercedes_arocs_1.jpg' },
+            { image: 'mercedes_arocs_2.jpg' },
+            { image: 'scania_g400.jpg' }
           ]
         },
         {
           name: 'Ostatní stroje',
           machines: [
-            { name: 'Kolový Dumper', image: 'kolovy_dumper.jpg' }
+            { image: 'kolovy_dumper.jpg' }
           ]
         }
       ]

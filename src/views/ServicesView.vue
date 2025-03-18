@@ -18,12 +18,12 @@ export default {
   data() {
     return {
       services: [
-        { name: 'Výstavba a rekonstrukce', description: 'Kompletní stavební práce včetně rekonstrukcí budov.' },
-        { name: 'Inženýrské sítě', description: 'Realizace kanalizací, vodovodů a dalších sítí.' },
-        { name: 'Zemní práce', description: 'Provádíme výkopové a terénní úpravy pro různé projekty.' },
-        { name: 'Doprava a mechanizace', description: 'Přeprava materiálů a stavební mechanizace.' },
-        { name: 'Pronájem techniky', description: 'Zapůjčení stavebních strojů a mechanizace.' },
-        { name: 'Konzultační činnost', description: 'Odborné poradenství v oblasti stavebnictví a inženýrství.' }
+        { name: 'Rekonstrukce', description: 'Komplexní renovace budov, zahrnující opravy, modernizace a zlepšení energetické účinnosti.' },
+        { name: 'Inženýrské sítě', description: 'Realizace a rekonstrukce kanalizačních, vodovodních a dalších inženýrských sítí pro infrastrukturu.' },
+        { name: 'Zemní práce', description: 'Profesionální výkopové a terénní úpravy, příprava základů a modelace terénu pro stavební projekty.' },
+        { name: 'Stavba Rodinného domu na klíč', description: 'Kompletní výstavba rodinných domů na klíč – od projektové dokumentace po finální realizaci.' },
+        { name: 'Bourací práce', description: 'Demolice stavebních objektů s důrazem na bezpečnost a ekologickou likvidaci odpadu.' },
+        { name: 'Rekonstrukce Ulic', description: 'Obnova městských komunikací, pokládka asfaltu, dlažby a modernizace dopravní infrastruktury.' }
       ]
     };
   }
