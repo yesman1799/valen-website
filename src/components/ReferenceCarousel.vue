@@ -61,8 +61,8 @@ export default defineComponent({
   components: { Carousel, Slide, Navigation },
   setup() {
     const references = ref([
-      { title: "Novostavba RD v Mokrovratech", image: "/images/construction1.jpg" },
-      { title: "Základy pro nový dům", image: "/images/construction2.jpg" },
+      { title: "Rekonstrukce silnce v Mokrovratech", image: "/images/construction1.jpg" },
+      { title: "Rekonstrukce ulice průběžné", image: "/images/construction2.jpg" },
       { title: "Dokončená novostavba", image: "/images/construction3.jpg" }
     ])
     const currentSlide = ref(0)
