@@ -5,6 +5,7 @@ import ServicesView from '@/views/ServicesView.vue'
 import ContactView from '@/views/ContactView.vue'
 import ReferencesView from '@/views/ReferencesView.vue'
 import EquipmentView from '@/views/EquipmentView.vue';
+import ReferenceDetailView from '@/views/ReferenceDetailView.vue';
 
 const routes = [
   { path: '/', name: 'Home', component: HomeView },
@@ -12,7 +13,8 @@ const routes = [
   { path: '/services', name: 'Services', component: ServicesView },
   { path: '/contact', name: 'Contact', component: ContactView },
   { path: '/references', name: 'References', component: ReferencesView },
-  { path: '/equipment', name: 'Equipment', component: EquipmentView }
+  { path: '/equipment', name: 'Equipment', component: EquipmentView },
+  { path: '/reference/:id', name: 'ReferenceDetail', component: ReferenceDetailView }, // <-- přidaná linka
 ]
 
 const router = createRouter({
