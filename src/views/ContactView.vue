@@ -10,9 +10,9 @@
         <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">DIČ: CZ28954149</p>
         <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">Nad Prachandou 840</p>
         <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">Dobříš 263 01</p>
-        <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">📞 <a href="tel:777564235" class="text-primary hover:underline">777 564 235</a></p>
-        <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">✉️ <a href="mailto:valen2009@seznam.cz" class="text-primary hover:underline">valen2009@seznam.cz</a></p>
-        <p class="text-base sm:text-lg text-gray-700">🌍 <a href="https://www.valen.cz" target="_blank" class="text-primary hover:underline">www.valen.cz</a></p>
+        <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">📞 <a href="tel:777564235" class="text-secondary hover:underline">777 564 235</a></p>
+        <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">✉️ <a href="mailto:valen2009@seznam.cz" class="text-secondary hover:underline">valen2009@seznam.cz</a></p>
+        <p class="text-base sm:text-lg text-gray-700">🌍 <a href="https://www.valen.cz" target="_blank" class="text-secondary hover:underline">www.valen.cz</a></p>
       </div>
       
       <!-- Map Section with Pin -->
@@ -32,7 +32,7 @@
         <input v-model="name" type="text" placeholder="Vaše jméno" class="p-2 sm:p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
         <input v-model="email" type="email" placeholder="Váš e-mail" class="p-2 sm:p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
         <textarea v-model="message" placeholder="Vaše zpráva" rows="4" class="p-2 sm:p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
-        <button type="submit" class="bg-primary text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-secondary transition">Odeslat zprávu</button>
+        <button type="submit" class="bg-secondary text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-primary transition">Odeslat zprávu</button>
       </form>
     </div>
   </div>

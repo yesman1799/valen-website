@@ -1,0 +1,211 @@
+[
+    {
+      "id": 1,
+      "name": "Pásový bagr CAT 323",
+      "description": "Pásový bagr, Cat 323, hmotnost 23 tun",
+      "type": "Pásový bagr",
+      "image": "/equipment/cat_323.jpg",
+      "specs": {
+        "Hmotnost": "23 000 kg",
+        "Výkon motoru": "128.5 kW (172 hp)",
+        "Maximální hloubka kopání": "6 730 mm",
+        "Maximální dosah": "9 870 mm",
+        "Objem lopaty": "1.30 m³"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Pásový bagr Yanmar SV60",
+      "description": "Pásový bagr, Yanmar SV60, 6 tunový bagr",
+      "type": "Pásový bagr",
+      "image": "/equipment/yanmar_sv60.jpg",
+      "specs": {
+        "Hmotnost": "5 700 kg",
+        "Výkon motoru": "33.4 kW (45 hp)",
+        "Maximální hloubka kopání": "3 645 mm",
+        "Maximální dosah": "5 980 mm",
+        "Objem lopaty": "0.14 m³"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Pásový bagr Wacker Neuson 14504",
+      "description": "Pásový bagr, Wacker Neuson 14504, 14 tunový",
+      "type": "Pásový bagr",
+      "image": "/equipment/wacker_neuson_14504.jpg",
+      "specs": {
+        "Hmotnost": "14 500 kg",
+        "Výkon motoru": "74.9 kW (100 hp)",
+        "Maximální hloubka kopání": "5 420 mm",
+        "Maximální dosah": "8 200 mm",
+        "Objem lopaty": "0.60 m³"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Pásový bagr Bobcat",
+      "description": "Pásový bagr, Bobcat, tunový",
+      "type": "Pásový bagr",
+      "image": "/equipment/bobcat_pasovy.jpg",
+      "specs": {
+        "Hmotnost": "cca 4 000–5 000 kg",
+        "Výkon motoru": "40–55 kW",
+        "Maximální hloubka kopání": "3 000–4 000 mm",
+        "Maximální dosah": "5 000–6 000 mm",
+        "Objem lopaty": "0.12–0.20 m³"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Nákladní automobil Mercedes Arocs",
+      "description": "Nákladní automobil, 8x6",
+      "type": "Nákladní automobil",
+      "image": "/equipment/mercedes_arocs.jpg",
+      "specs": {
+        "Pohon": "8x6",
+        "Nosnost": "až 26 tun",
+        "Výkon motoru": "up to 460 kW (625 hp)",
+        "Maximální rychlost": "80–90 km/h"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Dumper",
+      "description": "Dopravní prostředek po stavbě, dumper",
+      "type": "Stavební doprava",
+      "image": "/equipment/dumper.jpg",
+      "specs": {
+        "Nosnost": "5–10 tun",
+        "Výkon motoru": "55–75 kW",
+        "Objem korby": "3–6 m³"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Smykový kolový bagr Bobcat",
+      "description": "Smykový kolový bagr, Bobcat",
+      "type": "Kolový bagr",
+      "image": "/equipment/bobcat_kolovy.jpg",
+      "specs": {
+        "Hmotnost": "2 500–3 000 kg",
+        "Výkon motoru": "36–50 kW",
+        "Nosnost": "700–1 200 kg"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Pásový bagr Yanmar 30ivo",
+      "description": "Pásový bagr, Yanmar 30ivo, 3 tunový",
+      "type": "Pásový bagr",
+      "image": "/equipment/yanmar_30ivo.jpg",
+      "specs": {
+        "Hmotnost": "3 000 kg",
+        "Výkon motoru": "20–25 kW",
+        "Maximální hloubka kopání": "2 800 mm",
+        "Objem lopaty": "0.09 m³"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Nákladní automobil Scania G400",
+      "description": "Nákladní automobil, 8x6",
+      "type": "Nákladní automobil",
+      "image": "/equipment/scania_g400.jpg",
+      "specs": {
+        "Pohon": "8x6",
+        "Výkon motoru": "294 kW (400 hp)",
+        "Nosnost": "až 26 tun",
+        "Maximální rychlost": "85–90 km/h"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Nákladní automobil DAF",
+      "description": "Nákladní automobil, 4x2",
+      "type": "Nákladní automobil",
+      "image": "/equipment/daf.jpg",
+      "specs": {
+        "Pohon": "4x2",
+        "Výkon motoru": "265–390 kW",
+        "Nosnost": "18–20 tun",
+        "Maximální rychlost": "90 km/h"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Nákladní automobil Mercedes Actros 6x4",
+      "description": "Nákladní automobil, 6x4",
+      "type": "Nákladní automobil",
+      "image": "/equipment/mercedes_actros_6x4.jpg",
+      "specs": {
+        "Pohon": "6x4",
+        "Výkon motoru": "up to 460 kW",
+        "Nosnost": "26 tun",
+        "Maximální rychlost": "90 km/h"
+      }
+    },
+    {
+      "id": 12,
+      "name": "Nákladní automobil Mercedes Actros 8x8",
+      "description": "Nákladní automobil, 8x8",
+      "type": "Nákladní automobil",
+      "image": "/equipment/mercedes_actros_8x8.jpg",
+      "specs": {
+        "Pohon": "8x8",
+        "Výkon motoru": "330–460 kW",
+        "Nosnost": "32 tun",
+        "Maximální rychlost": "85 km/h"
+      }
+    },
+    {
+      "id": 13,
+      "name": "Pásový bagr JCB 4.8t",
+      "description": "Pásový bagr, JCB 4.8, 4 tunový bagr",
+      "type": "Pásový bagr",
+      "image": "/equipment/jcb_4.8.jpg",
+      "specs": {
+        "Hmotnost": "4 800 kg",
+        "Výkon motoru": "30–40 kW",
+        "Maximální hloubka kopání": "3 300 mm",
+        "Objem lopaty": "0.12–0.16 m³"
+      }
+    },
+    {
+      "id": 14,
+      "name": "Vibrační válec",
+      "description": "Vibrační válec",
+      "type": "Hutní technika",
+      "image": "/equipment/vibracni_valec.jpg",
+      "specs": {
+        "Hmotnost": "2 500–3 500 kg",
+        "Šířka válce": "1 200–1 500 mm",
+        "Výkon motoru": "20–40 kW",
+        "Vibrační síla": "30–50 kN"
+      }
+    },
+    {
+      "id": 15,
+      "name": "Kolový bagr CASE WX165",
+      "description": "Kolový bagr, CASE WX165, 16 tunový",
+      "type": "Kolový bagr",
+      "image": "/equipment/case_wx165.jpg",
+      "specs": {
+        "Hmotnost": "16 200 kg",
+        "Výkon motoru": "116 kW (156 hp)",
+        "Maximální hloubka kopání": "5 150 mm",
+        "Objem lopaty": "0.6 m³"
+      }
+    },
+    {
+      "id": 16,
+      "name": "Převoz strojů",
+      "description": "Převoz stroje, ostatní stroje",
+      "type": "Ostatní stroje",
+      "image": "/equipment/prevoz_stroje.jpg",
+      "specs": {
+        "Nosnost přepravníky": "až 30 tun",
+        "Typ přepravy": "pásové bagry, stavební stroje",
+        "Kategorie": "Stavební doprava"
+      }
+    }
+  ]
