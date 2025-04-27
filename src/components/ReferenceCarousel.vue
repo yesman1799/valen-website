@@ -1,104 +1,62 @@
 <template>
-  <section class="bg-white py-16 text-center">
-    <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold text-secondary mb-8">REFERENCE</h2>
-
-      <!-- Improved Carousel -->
-      <carousel 
-        :items-to-show="3"
-        :wrap-around="true"
-        :autoplay="5000"
-        v-model="currentSlide"
-        class="relative"
+  <section class="text-center">
+    <h2 class="text-4xl font-bold text-secondary mb-6">Reference</h2>
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div
+        v-for="(reference, index) in references"
+        :key="index"
+        class="group relative p-8 bg-gradient-to-br from-white to-gray-100 rounded-xl shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 animate-fade-in-up"
       >
-        <slide v-for="(reference, index) in references" :key="index">
-          <div 
-            class="relative w-full flex justify-center transition-transform duration-300" 
-            :class="{ 'scale-110': currentSlide === index, 'scale-90 opacity-60': currentSlide !== index }"
-          >
-            <!-- Reference Image -->
-            <img :src="reference.image" class="rounded-lg shadow-lg w-4/5 h-72 object-cover">
-
-            <!-- Overlay Text -->
-            <p class="absolute top-4 left-1/2 transform -translate-x-1/2 text-white text-lg font-bold bg-black/60 px-4 py-1 rounded">
-              {{ reference.title }}
-            </p>
-          </div>
-        </slide>
-
-        <!-- Custom Navigation Arrows -->
-        <template #addons>
-          <navigation>
-            <template #prev>
-              <button class="carousel__prev">❮</button>
-            </template>
-            <template #next>
-              <button class="carousel__next">❯</button>
-            </template>
-          </navigation>
-        </template>
-      </carousel>
-
-      <!-- Button to View All References -->
-      <div class="mt-8">
-        <router-link to="/references">
-          <button class="bg-primary text-black px-6 py-3 rounded-lg font-semibold hover:bg-secondary transition">
-            Zobrazit Reference
-          </button>
-        </router-link>
+        <h3 class="text-2xl font-bold text-secondary mb-4">{{ reference.title }}</h3>
+        <p class="text-gray-600">{{ reference.description }}</p>
       </div>
+    </div>
+    <div class="mt-10">
+      <router-link to="/references" class="inline-block bg-secondary text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-primary transition">
+        Více referencí
+      </router-link>
     </div>
   </section>
 </template>
 
 <script>
-import { defineComponent, ref } from 'vue'
-import { Carousel, Slide, Navigation } from 'vue3-carousel'
-import 'vue3-carousel/dist/carousel.css'
-
-export default defineComponent({
-  name: 'ReferenceCarousel',
-  components: { Carousel, Slide, Navigation },
+export default {
   setup() {
-    const references = ref([
-      { title: "Rekonstrukce silnce v Mokrovratech", image: "/images/construction1.jpg" },
-      { title: "Rekonstrukce ulice průběžné", image: "/images/construction2.jpg" },
-      { title: "Dokončená novostavba", image: "/images/construction3.jpg" }
-    ])
-    const currentSlide = ref(0)
+    const references = [
+      {
+        title: 'Strakonická',
+        description: 'Výstavba kanalizace a vodovodu, zemní práce, pokládka obrubníků.'
+      },
+      {
+        title: 'Dvorecký most',
+        description: 'Provádění kanalizace na silnici II. třídy v oblasti Podolského nábřeží.'
+      },
+      {
+        title: 'Řeporyje',
+        description: 'Realizace kanalizační a vodovodní přípojky pro rodinné domy.'
+      }
+    ];
 
-    return { references, currentSlide }
+    return {
+      references
+    };
   }
-})
+};
 </script>
 
 <style scoped>
-/* Custom styles */
-.carousel__slide {
-  display: flex;
-  justify-content: center;
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-/* Center image is larger */
-.scale-110 {
-  transform: scale(1.1);
-  opacity: 1;
-}
-.scale-90 {
-  transform: scale(0.9);
-  opacity: 0.6;
-}
-
-/* Custom Navigation Arrows */
-.carousel__prev, .carousel__next {
-  background-color: rgba(0, 0, 0, 0.6);
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  font-size: 20px;
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease forwards;
 }
 </style>

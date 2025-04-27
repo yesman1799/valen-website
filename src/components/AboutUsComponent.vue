@@ -1,23 +1,74 @@
 <template>
-  <section class="bg-white py-16 text-center">
-    <div class="container mx-auto px-6 max-w-4xl">
-      <h2 class="text-4xl font-bold text-secondary mb-4">O nás</h2>
-      <p class="text-lg text-gray-700 leading-relaxed">
-        Stavební firma Valen s.r.o. vznikla v roce 2009 a specializuje se na rekonstrukce
-        a novostavby objektů pro bydlení a služby. Naše firma dbá na kvalitu,
-        tradici a profesionální přístup.
+  <section class="text-center">
+    <h2 class="text-4xl font-bold text-secondary mb-6">O Nás</h2>
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div
+        v-for="(about, index) in abouts"
+        :key="index"
+        class="group relative p-8 bg-gradient-to-br from-white to-gray-100 rounded-xl shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 animate-fade-in-up"
+      >
+        <h3 class="text-2xl font-bold text-secondary mb-4">{{ about.title }}</h3>
+        <p class="text-gray-600">{{ about.description }}</p>
+      </div>
+    </div>
+    <div class="mt-10 max-w-3xl mx-auto">
+      <p class="text-lg text-gray-700">
+        Společnost Valen CZ se specializuje na stavební práce v oblasti kanalizací, vodovodů, rekonstrukcí silnic a výstavby rodinných domů. Naše zkušenosti, moderní technika a individuální přístup z nás dělají spolehlivého partnera pro každý projekt.
       </p>
-      <router-link to="/about">
-        <button class="mt-6 bg-primary text-black px-6 py-3 rounded-lg font-semibold hover:bg-secondary transition">
+      <div class="mt-8">
+        <router-link
+          to="/about"
+          class="inline-block bg-secondary text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-primary transition"
+        >
           Více o nás
-        </button>
-      </router-link>
+        </router-link>
+      </div>
     </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'AboutUsComponent'
-}
+  setup() {
+    const abouts = [
+      {
+        title: 'Profesionalita',
+        description: 'Dbáme na kvalitu práce, dodržování technologických postupů a spokojenost zákazníka.'
+      },
+      {
+        title: 'Moderní technika',
+        description: 'Používáme moderní stroje a technologie, které zajišťují efektivitu a špičkové výsledky.'
+      },
+      {
+        title: 'Individuální přístup',
+        description: 'Ke každému projektu přistupujeme s maximální péčí a respektem k požadavkům klienta.'
+      }
+    ];
+
+    return {
+      abouts
+    };
+  }
+};
 </script>
+
+<style scoped>
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease forwards;
+}
+
+.container {
+  max-width: 1200px;
+}
+</style>

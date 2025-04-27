@@ -9,9 +9,28 @@
     >
       <slide v-for="(image, index) in images" :key="index">
         <div 
-          class="w-full h-screen bg-cover bg-center" 
+          class="w-full h-screen bg-cover bg-center relative" 
           :style="{ backgroundImage: `url(${image})` }"
-        ></div>
+        >
+          <!-- Overlay -->
+          <div class="absolute inset-0 bg-black bg-opacity-40"></div>
+
+          <!-- Text Section -->
+          <div class="absolute inset-0 flex items-center justify-start px-8">
+            <div class="text-left text-white max-w-2xl">
+              <h1 class="text-4xl md:text-5xl font-bold mb-6">VALEN s.r.o.</h1>
+              <p class="text-lg md:text-xl mb-6">
+                Spolehlivý partner pro kanalizace, rekonstrukce a výstavbu domů. Stavíme na kvalitě, technologiích a férovém přístupu.
+              </p>
+              <router-link
+                to="/about"
+                class="inline-block bg-secondary text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-primary transition"
+              >
+                Více o nás
+              </router-link>
+            </div>
+          </div>
+        </div>
       </slide>
     </carousel>
 

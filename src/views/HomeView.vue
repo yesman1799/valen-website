@@ -1,52 +1,58 @@
 <template>
-  <section class="relative w-full h-screen">
-    <!-- Carousel Component -->
+  <div class="pt-24">
+    <!-- Hero Section -->
     <CarouselComponent />
 
-    <!-- Hero Section Content (Fixed Layering) -->
-    <div class="absolute inset-0 flex flex-col justify-center items-start text-white px-10 z-10">
-      <h1 class="text-5xl font-bold mb-4 relative">
-        <span class="bg-gray-900 bg-opacity-30 px-6 py-3 rounded-lg shadow-xl">Rekonstrukce a novostavba objektů</span>
-      </h1>
-      <p class="text-lg mb-6 relative">
-        <span class="bg-gray-800 bg-opacity-20 px-4 py-2 rounded-md shadow-lg">Kvalita, tradice a spolehlivost od roku 2009</span>
-      </p>
-      <router-link to="/contact">
-        <button class="bg-primary text-black px-6 py-3 rounded-lg font-semibold hover:bg-secondary transition">
-          Objednat
-        </button>
-      </router-link>
-    </div>
-  </section>
+    <!-- About Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <AboutUsComponent />
+      </div>
+    </section>
 
-  <!-- About Us Section -->
-  <AboutUsComponent />
+    <!-- Services Section -->
+    <section class="py-20">
+      <div class="container mx-auto px-4">
+        <ServicesComponent />
+      </div>
+    </section>
 
-  <!-- Services Section -->
-  <ServicesComponent />
+    <!-- References Section -->
+    <section class="py-20 bg-gray-50">
+      <div class="container mx-auto px-4">
+        <ReferenceCarousel />
+      </div>
+    </section>
 
-  <!-- Reference Carousel Section -->
-  <ReferenceCarousel />
-
-  <!-- Equipment Preview Section -->
-  <EquipmentPreview />
+    <!-- Equipment Section -->
+    <section class="py-20">
+      <div class="container mx-auto px-4">
+        <EquipmentPreview />
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
-import CarouselComponent from '@/components/CarouselComponent.vue'
-import AboutUsComponent from '@/components/AboutUsComponent.vue'
-import ServicesComponent from '@/components/ServicesComponent.vue'
-import ReferenceCarousel from '@/components/ReferenceCarousel.vue'
+import CarouselComponent from '@/components/CarouselComponent.vue';
+import AboutUsComponent from '@/components/AboutUsComponent.vue';
+import ServicesComponent from '@/components/ServicesComponent.vue';
+import ReferenceCarousel from '@/components/ReferenceCarousel.vue';
 import EquipmentPreview from '@/components/EquipmentPreview.vue';
 
 export default {
-  name: 'HomeView',
-  components: { 
+  components: {
     CarouselComponent,
     AboutUsComponent,
     ServicesComponent,
     ReferenceCarousel,
     EquipmentPreview
   }
-}
+};
 </script>
+
+<style scoped>
+.container {
+  max-width: 1200px;
+}
+</style>

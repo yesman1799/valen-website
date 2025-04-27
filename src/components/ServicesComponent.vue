@@ -1,42 +1,62 @@
 <template>
-  <div class="bg-gray-100 py-16">
-    <div class="container mx-auto p-6 sm:p-8 text-center">
-      <h2 class="text-3xl sm:text-4xl font-extrabold mb-12 text-secondary tracking-wide">Naše Služby</h2>
-      
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-10">
-        <div v-for="service in keyServices" :key="service.name" 
-             class="bg-white shadow-lg rounded-xl p-8 border-t-4 border-secondary hover:shadow-2xl transform hover:-translate-y-2 transition-all duration-300 flex flex-col items-center text-center">
-          <h3 class="text-xl sm:text-2xl font-semibold mb-4 text-textDark">{{ service.name }}</h3>
-          <p class="text-base sm:text-lg text-gray-700">{{ service.description }}</p>
-        </div>
-      </div>
-      
-      <div class="mt-12">
-        <router-link to="/services" 
-                     class="px-6 py-3 bg-secondary text-white text-lg font-semibold rounded-lg shadow-md hover:bg-primary transition-all duration-300">
-          Zobrazit všechny služby
-        </router-link>
+  <section class="text-center">
+    <h2 class="text-4xl font-bold text-secondary mb-6">Naše Služby</h2>
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div
+        v-for="(service, index) in services"
+        :key="index"
+        class="group relative p-8 bg-gradient-to-br from-white to-gray-100 rounded-xl shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 animate-fade-in-up"
+      >
+        <h3 class="text-2xl font-bold text-secondary mb-4">{{ service.title }}</h3>
+        <p class="text-gray-600">{{ service.description }}</p>
       </div>
     </div>
-  </div>
+    <div class="mt-10">
+      <router-link to="/services" class="inline-block bg-secondary text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-primary transition">
+        Více o službách
+      </router-link>
+    </div>
+  </section>
 </template>
 
 <script>
 export default {
-  data() {
+  setup() {
+    const services = [
+      {
+        title: 'Kanalizace a Vodovod',
+        description: 'Výstavba, opravy a rekonstrukce vodovodních a kanalizačních sítí se zaměřením na preciznost a kvalitu.'
+      },
+      {
+        title: 'Rekonstrukce Silnic',
+        description: 'Komplexní obnovy vozovek, pokládky asfaltů, obrubníků a dlažeb s ohledem na dlouhou životnost.'
+      },
+      {
+        title: 'Výstavba Rodinných Domů',
+        description: 'Výstavba moderních rodinných domů od základů až po finální dokončení, individuální přístup ke každému projektu.'
+      }
+    ];
+
     return {
-      keyServices: [
-        { name: 'Výstavba a rekonstrukce', description: 'Kompletní stavební práce včetně rekonstrukcí budov.' },
-        { name: 'Inženýrské sítě', description: 'Realizace kanalizací, vodovodů a dalších sítí.' },
-        { name: 'Zemní práce', description: 'Provádíme výkopové a terénní úpravy pro různé projekty.' }
-      ]
+      services
     };
   }
 };
 </script>
 
 <style scoped>
-.container {
-  max-width: 1200px;
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease forwards;
 }
 </style>

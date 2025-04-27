@@ -1,45 +1,68 @@
 <template>
-  <div class="container mx-auto p-8 text-center">
-    <h2 class="text-3xl sm:text-4xl font-extrabold mb-12 text-secondary tracking-wide">Vybraná Technika</h2>
-    
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-      <div v-for="(machine, index) in selectedMachines" :key="index" 
-           class="bg-white border border-gray-300 p-6 rounded-2xl shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
-        <img :src="getImage(machine.image)" :alt="machine.name" 
-             class="w-full h-56 object-cover rounded-xl mb-6 shadow-md">
-        <h3 class="text-2xl font-semibold text-gray-900 uppercase tracking-wider">{{ machine.name }}</h3>
+  <section class="text-center">
+    <h2 class="text-4xl font-bold text-secondary mb-6">Technika</h2>
+    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div
+        v-for="(item, index) in equipment"
+        :key="index"
+        class="group relative bg-gradient-to-br from-white to-gray-100 rounded-xl shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 animate-fade-in-up overflow-hidden"
+      >
+        <img :src="item.image" alt="equipment image" class="w-full h-52 object-cover">
+        <div class="p-6">
+          <h3 class="text-2xl font-bold text-secondary mb-4">{{ item.name }}</h3>
+          <p class="text-gray-600 text-sm">{{ item.description }}</p>
+        </div>
       </div>
     </div>
-    
-    <div class="mt-12">
-      <router-link to="/equipment" class="bg-primary text-black px-6 py-3 rounded-lg font-semibold hover:bg-secondary transition">
-        Zobrazit všechnu techniku
+    <div class="mt-10">
+      <router-link to="/equipment" class="inline-block bg-secondary text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-primary transition">
+        Celá technika
       </router-link>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
 export default {
-  data() {
+  setup() {
+    const equipment = [
+      {
+        name: 'Pásový bagr CAT 323',
+        description: 'Pásový bagr, 23 tun',
+        image: '/equipment/cat_323.jpg'
+      },
+      {
+        name: 'Pásový bagr Yanmar SV60',
+        description: 'Kompaktní pásový bagr, 6 tun',
+        image: '/equipment/yanmar_sv60.jpg'
+      },
+      {
+        name: 'Dumper',
+        description: 'Stavební dopravník materiálu',
+        image: '/equipment/dumper.jpg'
+      }
+    ];
+
     return {
-      selectedMachines: [
-        { name: 'Mercedes Arocs', image: 'mercedes_arocs_1.jpg' },
-        { name: 'CASE Pásové Rypadlo', image: 'case_pasove.jpg' },
-        { name: 'Kolový Dumper', image: 'kolovy_dumper.jpg' }
-      ]
+      equipment
     };
-  },
-  methods: {
-    getImage(fileName) {
-      return new URL(`/src/assets/equipment/${fileName}`, import.meta.url).href;
-    }
   }
 };
 </script>
 
 <style scoped>
-.container {
-  max-width: 1200px;
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease forwards;
 }
 </style>
