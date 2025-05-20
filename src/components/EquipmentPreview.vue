@@ -7,7 +7,7 @@
         :key="index"
         class="group relative bg-gradient-to-br from-white to-gray-100 rounded-xl shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 animate-fade-in-up overflow-hidden"
       >
-        <img :src="item.image" alt="equipment image" class="w-full h-52 object-cover">
+        <img :src="item.image" alt="equipment" class="w-full h-52 object-cover">
         <div class="p-6">
           <h3 class="text-2xl font-bold text-secondary mb-4">{{ item.name }}</h3>
           <p class="text-gray-600 text-sm">{{ item.description }}</p>

@@ -58,7 +58,7 @@
     {
       "id": 5,
       "name": "Nákladní automobil Mercedes Arocs",
-      "description": "Nákladní automobil, 8x6",
+      "description": "Nákladní automobil, 8x4",
       "type": "Nákladní automobil",
       "image": "/equipment/mercedes_arocs.jpg",
       "specs": {
@@ -203,7 +203,7 @@
       "type": "Ostatní stroje",
       "image": "/equipment/prevoz_stroje.jpg",
       "specs": {
-        "Nosnost přepravníky": "až 30 tun",
+        "Nosnost přepravníky": "do 25-ti tun",
         "Typ přepravy": "pásové bagry, stavební stroje",
         "Kategorie": "Stavební doprava"
       }

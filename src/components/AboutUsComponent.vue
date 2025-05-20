@@ -5,7 +5,7 @@
       <div
         v-for="(about, index) in abouts"
         :key="index"
-        class="group relative p-8 bg-gradient-to-br from-white to-gray-100 rounded-xl shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 animate-fade-in-up"
+        class="relative p-8 bg-gradient-to-br from-white to-gray-100 rounded-xl shadow-md animate-fade-in-up"
       >
         <h3 class="text-2xl font-bold text-secondary mb-4">{{ about.title }}</h3>
         <p class="text-gray-600">{{ about.description }}</p>
@@ -13,7 +13,7 @@
     </div>
     <div class="mt-10 max-w-3xl mx-auto">
       <p class="text-lg text-gray-700">
-        Společnost Valen CZ se specializuje na stavební práce v oblasti kanalizací, vodovodů, rekonstrukcí silnic a výstavby rodinných domů. Naše zkušenosti, moderní technika a individuální přístup z nás dělají spolehlivého partnera pro každý projekt.
+        Společnost VALEN s.r.o. se specializuje na stavební práce v oblasti kanalizací, vodovodů, rekonstrukcí silnic a výstavby rodinných domů. Naše zkušenosti, moderní technika a individuální přístup z nás dělají spolehlivého partnera pro každý projekt.
       </p>
       <div class="mt-8">
         <router-link

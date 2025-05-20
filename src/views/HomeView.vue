@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-24">
+  <div class="pt-16">
     <!-- Hero Section -->
     <CarouselComponent />
 

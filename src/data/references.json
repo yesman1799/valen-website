@@ -1,192 +1,192 @@
 [
-    {
-      "id": 1,
-      "name": "Strakonická",
-      "shortDescription": "Výstavba kanalizace, vodovodů a zemní práce v oblasti Strakonická.",
-      "longDescription": "Projekt na Strakonické zahrnoval komplexní realizaci kanalizačního a vodovodního systému, doplněné o rozsáhlé zemní práce u podchodu. Dále jsme provedli pokládku silničních obrubníků a připravili plochy pro následnou výstavbu. Práce probíhaly za provozu s důrazem na bezpečnost a efektivní logistiku.",
-      "subcontractor": "",
-      "period": "2024-2025",
-      "type": "Kanalizace a vodovod",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 2,
-      "name": "Dvorecký most (Podolské nábřeží)",
-      "shortDescription": "Kanalizační práce v oblasti Dvoreckého mostu.",
-      "longDescription": "U projektu Dvorecký most jsme realizovali kanalizační síť podél Podolského nábřeží. Díky zkušenostem s prací ve stísněných podmínkách městské infrastruktury jsme projekt dokončili s minimálním omezením dopravy. Klíčové bylo zajištění stávajících sítí a koordinace s dalšími dodavateli.",
-      "subcontractor": "",
-      "period": "2024",
-      "type": "Kanalizace a vodovod",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 3,
-      "name": "Řeporyje (Tělovýchova)",
-      "shortDescription": "Kanalizační a vodovodní přípojky pro nové rodinné domy.",
-      "longDescription": "V městské části Řeporyje jsme provedli výstavbu nových kanalizačních a vodovodních přípojek. Součástí prací bylo provedení přesných výkopů, pokládka inženýrských sítí a jejich napojení na stávající řady. Projekt byl zaměřen na rychlost a minimální zásah do okolní zástavby.",
-      "subcontractor": "",
-      "period": "2024",
-      "type": "Rodinné domy",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 4,
-      "name": "Slivenec",
-      "shortDescription": "Rozsáhlé kanalizační práce ve Slivenci.",
-      "longDescription": "Ve Slivenci jsme po dobu tří let prováděli kompletní rekonstrukci kanalizační sítě napříč městskou částí. Práce probíhaly v několika etapách včetně realizace přípojek k jednotlivým objektům. Důraz byl kladen na plynulý provoz a minimalizaci dopadů na místní obyvatele.",
-      "subcontractor": "",
-      "period": "2021-2024",
-      "type": "Zemní práce",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 5,
-      "name": "Dobříš Obnova povrchů ulice Nová",
-      "shortDescription": "Rekonstrukce vozovky v ulici Nová na Dobříši.",
-      "longDescription": "Projekt zahrnoval výměnu podloží, pokládku nového asfaltového povrchu a osazení nových dlažeb a obrubníků. Naším cílem bylo zvýšit kvalitu komunikace a zajistit dlouhou životnost rekonstruovaných ploch. Při realizaci jsme dbali na minimalizaci omezení pro místní dopravu.",
-      "subcontractor": "",
-      "period": "2024",
-      "type": "Rekonstrukce silnic",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 6,
-      "name": "Dobříš Ulice Šeříková a Levandulová",
-      "shortDescription": "Rekonstrukce komunikací v ulicích Šeříková a Levandulová.",
-      "longDescription": "V rámci rekonstrukce ulic Šeříková a Levandulová jsme realizovali kompletní výměnu podloží, nové asfalty, osazení obrubníků a dlažby. Součástí projektu bylo i sejmutí stromů s ohledem na budoucí úpravy zeleně. Práce probíhaly za plného provozu v koordinaci s místní samosprávou.",
-      "subcontractor": "",
-      "period": "2024",
-      "type": "Rekonstrukce silnic",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 7,
-      "name": "Dobříš Naměstí Komenského",
-      "shortDescription": "Kompletní rekonstrukce Komenského náměstí.",
-      "longDescription": "Tento projekt představoval kompletní obnovu náměstí včetně podloží, nové dlažby ze žulových kostek, osazení obrubníků a vysazení nové zeleně. Náročné bylo zejména přeložení inženýrských sítí a koordinace jednotlivých stavebních fází bez výrazného omezení veřejnosti.",
-      "subcontractor": "",
-      "period": "2024",
-      "type": "Rekonstrukce silnic",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 8,
-      "name": "Všenory",
-      "shortDescription": "Výstavba hrubé stavby rodinného domu ve Všenorech.",
-      "longDescription": "Ve Všenorech jsme provedli výstavbu hrubé stavby rodinného domu. Projekt zahrnoval základovou desku, zdění a konstrukce stropů. Stavbu jsme realizovali s důrazem na přesnost provedení a kvalitu použitých materiálů.",
-      "subcontractor": "",
-      "period": "2024-2025",
-      "type": "Rodinné domy",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 9,
-      "name": "Řevnice",
-      "shortDescription": "Hrubá stavba rodinného domu v Řevnicích.",
-      "longDescription": "Stavba v Řevnicích zahrnuje výstavbu hrubé stavby nového rodinného domu. Práce probíhají dle harmonogramu a zaměřujeme se na maximální kvalitu provedení a připravenost stavby na další etapy dokončovacích prací.",
-      "subcontractor": "",
-      "period": "Probíhá",
-      "type": "Rodinné domy",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 10,
-      "name": "Pouště",
-      "shortDescription": "Základová deska pro rodinný dům.",
-      "longDescription": "V lokalitě Pouště jsme realizovali provedení základové desky pro novostavbu rodinného domu. Projekt zahrnoval zemní práce, přípravu podloží, armování a betonáž základové konstrukce. Klíčové bylo správné provedení detailů pro budoucí navazující práce.",
-      "subcontractor": "",
-      "period": "2024",
-      "type": "Rodinné domy",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 11,
-      "name": "Praha 10 ulice Malešická",
-      "shortDescription": "Obnova vodovodního řádu v ulici Malešická, Praha 10.",
-      "longDescription": "V Malešické ulici v Praze 10 jsme prováděli komplexní obnovu vodovodního řádu. Projekt zahrnoval demontáž žulových kostek, rozsáhlé výkopové práce, pokládku nového potrubí a jeho obsyp a zásyp. Vše bylo realizováno s ohledem na minimalizaci dopravních omezení.",
-      "subcontractor": "",
-      "period": "2021",
-      "type": "Kanalizace a vodovod",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 12,
-      "name": "Příprava území hotel Hybernská",
-      "shortDescription": "Výstavba kanalizace a vodovodních přípojek pro hotel Hybernská.",
-      "longDescription": "Při přípravě území hotelu Hybernská jsme prováděli realizaci veřejné kanalizace a vodovodních přípojek. Projekt si vyžadoval precizní koordinaci prací v centru města, se zachováním maximální bezpečnosti a efektivity.",
-      "subcontractor": "",
-      "period": "2021",
-      "type": "Kanalizace a vodovod",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 13,
-      "name": "Kobylisy Na pešinách",
-      "shortDescription": "Zemní práce v oblasti Kobylisy Na pešinách.",
-      "longDescription": "V lokalitě Kobylisy Na pešinách jsme realizovali zemní práce zaměřené na přípravu terénu pro následné stavební projekty. Práce probíhaly s důrazem na přesné hloubení, stabilitu výkopů a dodržení stanovených harmonogramů.",
-      "subcontractor": "",
-      "period": "2024",
-      "type": "Zemní práce",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 14,
-      "name": "Hostivař",
-      "shortDescription": "Zemní práce v městské části Hostivař.",
-      "longDescription": "V rámci projektu v Hostivaři jsme prováděli zemní práce spojené s přípravou podloží pod komunikace a budoucí výstavbu. Naší prioritou bylo zajistit správné hutnění vrstev a bezpečný průběh výkopových prací.",
-      "subcontractor": "",
-      "period": "2024",
-      "type": "Zemní práce",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 15,
-      "name": "Kladno - Vrapická",
-      "shortDescription": "Výstavba kanalizace a asfaltování v ulici Vrapická, Kladno.",
-      "longDescription": "Na Vrapické ulici v Kladně jsme pokládali veřejnou kanalizaci a následně realizovali nové asfaltové vrstvy. Projekt kladl důraz na přesnost provedení a rychlé uvedení komunikace do provozu.",
-      "subcontractor": "",
-      "period": "2024",
-      "type": "Kanalizace a vodovod",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 16,
-      "name": "Okružní křižovatky Kladno",
-      "shortDescription": "Výstavba kruhového objezdu v Kladně.",
-      "longDescription": "Projekt okružních křižovatek v Kladně zahrnoval výstavbu kruhového objezdu vedle prodejny Lidl, odstranění starých zpevněných ploch, kufrování a přípravu podkladu pod asfaltové vrstvy. Práce byly koordinovány tak, aby co nejméně ovlivnily dopravní provoz.",
-      "subcontractor": "",
-      "period": "2024",
-      "type": "Rekonstrukce silnic",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 17,
-      "name": "Praha Hostivař II (Uzel Triangl)",
-      "shortDescription": "Zemní práce v lokalitě Uzel Triangl, Praha Hostivař.",
-      "longDescription": "V rámci projektu Uzel Triangl jsme prováděli rozsáhlé zemní práce související s modernizací dopravní infrastruktury. Naším cílem bylo zajistit kvalitní podkladové vrstvy pro budoucí výstavbu.",
-      "subcontractor": "Metrostav",
-      "period": "",
-      "type": "Zemní práce",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 18,
-      "name": "Praha Hostivař II (Uzel Eden)",
-      "shortDescription": "Zemní práce v lokalitě Uzel Eden, Praha Hostivař.",
-      "longDescription": "Na projektu Uzel Eden jsme prováděli přípravné zemní práce pro nové dopravní uzly v oblasti železniční dopravy. Stavbu jsme realizovali s ohledem na přesnost výškového vedení a technologickou kázeň při výstavbě.",
-      "subcontractor": "Metrostav",
-      "period": "",
-      "type": "Zemní práce",
-      "image": "/images/construction1.jpg"
-    },
-    {
-      "id": 19,
-      "name": "Praha Hostivař (Průběžná)",
-      "shortDescription": "Zemní práce a příprava pod asfalt na Průběžné ulici.",
-      "longDescription": "Projekt na ulici Průběžná v Praze Hostivaři zahrnoval zemní práce a přípravu podkladních vrstev pro pokládku asfaltu. Klíčovým faktorem byla koordinace prací v dopravně vytíženém území a dodržení všech technologických standardů.",
-      "subcontractor": "Metrostav",
-      "period": "",
-      "type": "Zemní práce",
-      "image": "/images/construction1.jpg"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Strakonická",
+    "shortDescription": "Výstavba kanalizace, vodovodů a zemní práce v oblasti Strakonická.",
+    "longDescription": "Projekt na Strakonické zahrnoval komplexní realizaci kanalizačního a vodovodního systému, doplněné o rozsáhlé zemní práce u podchodu. Dále jsme provedli pokládku silničních obrubníků a připravili plochy pro následnou výstavbu. Práce probíhaly za provozu s důrazem na bezpečnost a efektivní logistiku. Ve spolupráci s Metrostavem TBR",
+    "subcontractor": "Metrostav TBR",
+    "period": "2024-2025",
+    "type": "Kanalizace a vodovod",
+    "image": "/images/strakonicka_1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Dvorecký most (Podolské nábřeží)",
+    "shortDescription": "Kanalizační práce v oblasti Dvoreckého mostu.",
+    "longDescription": "U projektu Dvorecký most jsme realizovali kanalizační síť podél Podolského nábřeží. Díky zkušenostem s prací ve stísněných podmínkách městské infrastruktury jsme projekt dokončili s minimálním omezením dopravy. Klíčové bylo zajištění stávajících sítí a koordinace s dalšími dodavateli.",
+    "subcontractor": "",
+    "period": "2024",
+    "type": "Kanalizace a vodovod",
+    "image": "/images/construction1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Řeporyje (Tělovýchova)",
+    "shortDescription": "Kanalizační a vodovodní přípojky pro nové rodinné domy.",
+    "longDescription": "V městské části Řeporyje jsme provedli výstavbu kanalizačních a vodovodních přípojek pro nově budované rodinné domy. Projekt byl zaměřen na rychlost a minimální zásah do okolní zástavby.",
+    "subcontractor": "",
+    "period": "2024",
+    "type": "Rodinné domy",
+    "image": "/images/construction3.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Slivenec",
+    "shortDescription": "Úpravy stávajících vodovodů a kanalizace.",
+    "longDescription": "Projekt v lokalitě Slivenec zahrnoval výměnu části vodovodu, opravy kanalizační stoky a úpravu terénu.",
+    "subcontractor": "Subtera a.s. - Divize 4",
+    "period": "",
+    "type": "Zemní práce",
+    "image": "/images/slivenec_1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Dobříš Obnova povrchů",
+    "shortDescription": "Rekonstrukce vozovky v ulici Nová na Dobříši.",
+    "longDescription": "Projekt zahrnoval výměnu podloží, pokládku nového asfaltového povrchu a osazení nových dlažeb a obrubníků. Naším cílem bylo zvýšit kvalitu komunikace a zajistit dlouhou životnost rekonstruovaných ploch. Při realizaci jsme dbali na minimalizaci omezení pro místní dopravu.",
+    "subcontractor": "",
+    "period": "2024",
+    "type": "Rekonstrukce silnic",
+    "image": "/images/Dobris_1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Dobříš – Přípojky",
+    "shortDescription": "Instalace vodovodních a kanalizačních přípojek.",
+    "longDescription": "Realizace přípojek na vodovodní a kanalizační řád pro nové i stávající objekty v Dobříši.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Rodinné domy",
+    "image": "/images/Dobris_1.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Dobříš – Náměstí",
+    "shortDescription": "Rekonstrukce náměstí s kompletní výměnou sítí.",
+    "longDescription": "Projekt na dobříšském náměstí zahrnoval hloubení základů, výměnu kanalizační a vodovodní sítě a návrh nového povrchu.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Rekonstrukce silnic",
+    "image": "/images/dobris_namesti_1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Všenory",
+    "shortDescription": "Příprava stavebních parcel a zemní práce.",
+    "longDescription": "Příprava stavebních parcel, zemní práce a nivelace terénu v obci Všenory.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Zemní práce",
+    "image": "/images/construction1.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Řevnice",
+    "shortDescription": "Rozšíření stávajícího vodovodu.",
+    "longDescription": "Projekt spočíval v rozšíření stávajícího vodovodu v místní části Řevnice, včetně výkopových prací a napojení na hlavní řád.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Kanalizace a vodovod",
+    "image": "/images/construction1.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Pouště",
+    "shortDescription": "Výstavba kanalizace v oblasti Pouště.",
+    "longDescription": "Realizace kanalizační sítě v nové rezidenční zástavbě v oblasti Pouště.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Kanalizace a vodovod",
+    "image": "/images/construction1.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Praha 10 (Hybernská)",
+    "shortDescription": "Stavební úpravy infrastruktury v centru Prahy.",
+    "longDescription": "Hloubení výkopů, sanace stávajících sítí a koordinace s městskou částí Praha 10 na ulici Hybernská.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Kanalizace a vodovod",
+    "image": "/images/construction1.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Kladno",
+    "shortDescription": "Zemní práce pro nový průmyslový areál.",
+    "longDescription": "Zemní práce na ploše budoucího areálu s důrazem na stabilitu terénu a přípravu základových pásů.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Zemní práce",
+    "image": "/images/construction1.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Novostavba viladomů Kobylisy",
+    "shortDescription": "Kompletní infrastruktura pro viladomy Kobylisy.",
+    "longDescription": "Instalace kanalizační a vodovodní sítě pro několik nových viladomů v Kobylisích, včetně tlakových zkoušek a revizí.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Rodinné domy",
+    "image": "/images/kobylisy_1.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Doplňující fotodokumentace",
+    "shortDescription": "Fotodokumentace pro různé projekty.",
+    "longDescription": "Soubory doplňující fotodokumentace k několika realizacím.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Kanalizace a vodovod",
+    "image": "/images/doplnujici_foto.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Hybernská 23",
+    "shortDescription": "Revize kanalizační šachty a sanace stávajícího řadu.",
+    "longDescription": "Komplexní sanace kanalizačního řadu pod Hybernskou 23 v Praze.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Zemní práce",
+    "image": "/images/construction1.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Kladenská výpadovka",
+    "shortDescription": "Stavební příprava nové komunikace.",
+    "longDescription": "Zemní práce pro výstavbu rozšířené komunikace směrem na Kladno.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Zemní práce",
+    "image": "/images/construction1.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Praha Hostivař (Triangel)",
+    "shortDescription": "Příprava podkladů pro budoucí stavbu Triangel.",
+    "longDescription": "Zemní práce a uzemnění pro stavbu administrativního centra Triangel v Hostivaři.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Zemní práce",
+    "image": "/images/Hostivar_triangel_1.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Praha Hostivař (Eden)",
+    "shortDescription": "Zemní práce pro projekt Eden.",
+    "longDescription": "Výkopové práce, zásypy a příprava na pokládku sítí pro projekt Eden v Hostivaři.",
+    "subcontractor": "",
+    "period": "",
+    "type": "Zemní práce",
+    "image": "/images/Hostivar_eden_1.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Praha Hostivař (Průběžná)",
+    "shortDescription": "Zemní práce a příprava pod asfalt na Průběžné ulici.",
+    "longDescription": "Projekt na ulici Průběžná v Praze Hostivaři zahrnoval zemní práce, přesuny materiálu a přípravu pro pokládku asfaltu v hustě vytíženém území a dodržení všech technologických standardů.",
+    "subcontractor": "Metrostav",
+    "period": "",
+    "type": "Zemní práce",
+    "image": "/images/prubezna_1.jpg"
+  }
+]

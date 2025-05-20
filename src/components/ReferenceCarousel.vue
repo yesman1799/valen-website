@@ -5,14 +5,17 @@
       <div
         v-for="(reference, index) in references"
         :key="index"
-        class="group relative p-8 bg-gradient-to-br from-white to-gray-100 rounded-xl shadow-md hover:shadow-2xl transition-all transform hover:-translate-y-2 animate-fade-in-up"
+        class="relative p-8 bg-gradient-to-br from-white to-gray-100 rounded-xl shadow-md animate-fade-in-up"
       >
         <h3 class="text-2xl font-bold text-secondary mb-4">{{ reference.title }}</h3>
         <p class="text-gray-600">{{ reference.description }}</p>
       </div>
     </div>
     <div class="mt-10">
-      <router-link to="/references" class="inline-block bg-secondary text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-primary transition">
+      <router-link
+        to="/references"
+        class="inline-block bg-secondary text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-primary transition"
+      >
         Více referencí
       </router-link>
     </div>
@@ -25,15 +28,15 @@ export default {
     const references = [
       {
         title: 'Strakonická',
-        description: 'Výstavba kanalizace a vodovodu, zemní práce, pokládka obrubníků.'
+        description: 'Výstavba kanalizace, vodovodu a zemní práce.'
       },
       {
         title: 'Dvorecký most',
-        description: 'Provádění kanalizace na silnici II. třídy v oblasti Podolského nábřeží.'
+        description: 'Provádění kanalizace na silnici II. třídy.'
       },
       {
         title: 'Řeporyje',
-        description: 'Realizace kanalizační a vodovodní přípojky pro rodinné domy.'
+        description: 'Výstavba kanalizační a vodovodní přípojky pro rodinné domy.'
       }
     ];
 

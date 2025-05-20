@@ -8,7 +8,7 @@
         
         <div class="md:w-1/2">
           <p class="text-lg text-gray-700 leading-relaxed">
-            Valen.cz je stavební společnost s dlouholetou historií a zkušenostmi v oblasti výstavby, rekonstrukcí a zemních prací. 
+            VALEN s.r.o. je stavební společnost s dlouholetou historií a zkušenostmi v oblasti výstavby, rekonstrukcí a zemních prací. 
             Naše firma se specializuje na moderní technologie, kvalitní materiály a precizní práci, abychom zajistili spokojenost 
             našich klientů.
           </p>
@@ -23,7 +23,7 @@
         <h2 class="text-2xl font-semibold text-secondary text-center mb-4">Proč si vybrat nás?</h2>
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           <div class="flex flex-col items-center text-center">
-            <span class="text-4xl text-secondary font-bold">10+</span>
+            <span class="text-4xl text-secondary font-bold">15+</span>
             <p class="text-lg text-gray-700">Let zkušeností</p>
           </div>
           <div class="flex flex-col items-center text-center">
