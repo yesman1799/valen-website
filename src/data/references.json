@@ -1,192 +1,339 @@
 [
   {
     "id": 1,
-    "name": "Strakonická",
+    "name": "Strakonická, podchod D4 - Mimoúrovňové křížení",
     "shortDescription": "Výstavba kanalizace, vodovodů a zemní práce v oblasti Strakonická.",
     "longDescription": "Projekt na Strakonické zahrnoval komplexní realizaci kanalizačního a vodovodního systému, doplněné o rozsáhlé zemní práce u podchodu. Dále jsme provedli pokládku silničních obrubníků a připravili plochy pro následnou výstavbu. Práce probíhaly za provozu s důrazem na bezpečnost a efektivní logistiku. Ve spolupráci s Metrostavem TBR",
-    "subcontractor": "Metrostav TBR",
+    "subcontractor": "Metrostav TBR a.s.",
     "period": "2024-2025",
     "type": "Kanalizace a vodovod",
-    "image": "/images/strakonicka_1.jpg"
+    "image": "/images/strakonicka_1.jpg",
+    "images": [
+      "/images/strakonicka_1.jpg"
+    ]
   },
   {
     "id": 2,
-    "name": "Dvorecký most (Podolské nábřeží)",
+    "name": "Dvorecký most č.42821",
     "shortDescription": "Kanalizační práce v oblasti Dvoreckého mostu.",
     "longDescription": "U projektu Dvorecký most jsme realizovali kanalizační síť podél Podolského nábřeží. Díky zkušenostem s prací ve stísněných podmínkách městské infrastruktury jsme projekt dokončili s minimálním omezením dopravy. Klíčové bylo zajištění stávajících sítí a koordinace s dalšími dodavateli.",
-    "subcontractor": "",
+    "subcontractor": "Metrostav TBR a.s.  + FIRESTA-Fišer, rekonstrukce, stavby a. + STRABAG a.s.",
     "period": "2024",
     "type": "Kanalizace a vodovod",
-    "image": "/images/construction1.jpg"
-  },
-  {
-    "id": 3,
-    "name": "Řeporyje (Tělovýchova)",
-    "shortDescription": "Kanalizační a vodovodní přípojky pro nové rodinné domy.",
-    "longDescription": "V městské části Řeporyje jsme provedli výstavbu kanalizačních a vodovodních přípojek pro nově budované rodinné domy. Projekt byl zaměřen na rychlost a minimální zásah do okolní zástavby.",
-    "subcontractor": "",
-    "period": "2024",
-    "type": "Rodinné domy",
-    "image": "/images/construction3.jpg"
+    "image": "/images/construction1.jpg",
+    "images": [
+      "/images/construction1.jpg"
+    ]
   },
   {
     "id": 4,
     "name": "Slivenec",
     "shortDescription": "Úpravy stávajících vodovodů a kanalizace.",
     "longDescription": "Projekt v lokalitě Slivenec zahrnoval výměnu části vodovodu, opravy kanalizační stoky a úpravu terénu.",
-    "subcontractor": "Subtera a.s. - Divize 4",
-    "period": "",
+    "subcontractor": "Subterra a.s.",
+    "period": "2021-2024",
     "type": "Zemní práce",
-    "image": "/images/slivenec_1.jpg"
+    "image": "/images/slivenec_1.jpg",
+    "images": [
+      "/images/slivenec_1.jpg"
+    ]
   },
   {
     "id": 5,
     "name": "Dobříš Obnova povrchů",
     "shortDescription": "Rekonstrukce vozovky v ulici Nová na Dobříši.",
     "longDescription": "Projekt zahrnoval výměnu podloží, pokládku nového asfaltového povrchu a osazení nových dlažeb a obrubníků. Naším cílem bylo zvýšit kvalitu komunikace a zajistit dlouhou životnost rekonstruovaných ploch. Při realizaci jsme dbali na minimalizaci omezení pro místní dopravu.",
-    "subcontractor": "",
+    "subcontractor": "Nikdo ",
     "period": "2024",
     "type": "Rekonstrukce silnic",
-    "image": "/images/Dobris_1.jpg"
-  },
-  {
-    "id": 6,
-    "name": "Dobříš – Přípojky",
-    "shortDescription": "Instalace vodovodních a kanalizačních přípojek.",
-    "longDescription": "Realizace přípojek na vodovodní a kanalizační řád pro nové i stávající objekty v Dobříši.",
-    "subcontractor": "",
-    "period": "",
-    "type": "Rodinné domy",
-    "image": "/images/Dobris_1.jpg"
+    "image": "/images/Dobris_1.jpg",
+    "images": [
+      "/images/Dobris_1.jpg"
+    ]
   },
   {
     "id": 7,
     "name": "Dobříš – Náměstí",
     "shortDescription": "Rekonstrukce náměstí s kompletní výměnou sítí.",
     "longDescription": "Projekt na dobříšském náměstí zahrnoval hloubení základů, výměnu kanalizační a vodovodní sítě a návrh nového povrchu.",
-    "subcontractor": "",
-    "period": "",
+    "subcontractor": "Metrostav TBR a.s.",
+    "period": "2023",
     "type": "Rekonstrukce silnic",
-    "image": "/images/dobris_namesti_1.jpg"
+    "image": "/images/dobris_namesti_1.jpg",
+    "images": [
+      "/images/dobris_namesti_1.jpg"
+    ]
   },
   {
     "id": 8,
     "name": "Všenory",
     "shortDescription": "Příprava stavebních parcel a zemní práce.",
     "longDescription": "Příprava stavebních parcel, zemní práce a nivelace terénu v obci Všenory.",
-    "subcontractor": "",
-    "period": "",
+    "subcontractor": "Nikdo ",
+    "period": "2024-2025",
     "type": "Zemní práce",
-    "image": "/images/construction1.jpg"
+    "image": "/images/construction1.jpg",
+    "images": [
+      "/images/construction1.jpg"
+    ]
   },
   {
     "id": 9,
     "name": "Řevnice",
     "shortDescription": "Rozšíření stávajícího vodovodu.",
     "longDescription": "Projekt spočíval v rozšíření stávajícího vodovodu v místní části Řevnice, včetně výkopových prací a napojení na hlavní řád.",
-    "subcontractor": "",
-    "period": "",
+    "subcontractor": "Nikdo ",
+    "period": "2025-2026",
     "type": "Kanalizace a vodovod",
-    "image": "/images/construction1.jpg"
-  },
-  {
-    "id": 10,
-    "name": "Pouště",
-    "shortDescription": "Výstavba kanalizace v oblasti Pouště.",
-    "longDescription": "Realizace kanalizační sítě v nové rezidenční zástavbě v oblasti Pouště.",
-    "subcontractor": "",
-    "period": "",
-    "type": "Kanalizace a vodovod",
-    "image": "/images/construction1.jpg"
+    "image": "/images/construction1.jpg",
+    "images": [
+      "/images/construction1.jpg"
+    ]
   },
   {
     "id": 11,
-    "name": "Praha 10 (Hybernská)",
+    "name": "Praha 10 Hotel one Hybersnká",
     "shortDescription": "Stavební úpravy infrastruktury v centru Prahy.",
     "longDescription": "Hloubení výkopů, sanace stávajících sítí a koordinace s městskou částí Praha 10 na ulici Hybernská.",
-    "subcontractor": "",
-    "period": "",
+    "subcontractor": "Subterra a.s.",
+    "period": "2021-2022",
     "type": "Kanalizace a vodovod",
-    "image": "/images/construction1.jpg"
+    "image": "/images/construction1.jpg",
+    "images": [
+      "/images/construction1.jpg"
+    ]
   },
   {
     "id": 12,
-    "name": "Kladno",
+    "name": "Kladno Vrapická - Havarie - odvodnění",
     "shortDescription": "Zemní práce pro nový průmyslový areál.",
     "longDescription": "Zemní práce na ploše budoucího areálu s důrazem na stabilitu terénu a přípravu základových pásů.",
-    "subcontractor": "",
-    "period": "",
+    "subcontractor": "Subterra a.s.",
+    "period": "2024",
     "type": "Zemní práce",
-    "image": "/images/construction1.jpg"
+    "image": "/images/construction1.jpg",
+    "images": [
+      "/images/construction1.jpg"
+    ]
   },
   {
     "id": 13,
-    "name": "Novostavba viladomů Kobylisy",
+    "name": "Novostavba viladomů Kobylisy- zemní práce",
     "shortDescription": "Kompletní infrastruktura pro viladomy Kobylisy.",
     "longDescription": "Instalace kanalizační a vodovodní sítě pro několik nových viladomů v Kobylisích, včetně tlakových zkoušek a revizí.",
-    "subcontractor": "",
-    "period": "",
+    "subcontractor": "BAMMA s.r.o.",
+    "period": "2024",
     "type": "Rodinné domy",
-    "image": "/images/kobylisy_1.jpg"
-  },
-  {
-    "id": 14,
-    "name": "Doplňující fotodokumentace",
-    "shortDescription": "Fotodokumentace pro různé projekty.",
-    "longDescription": "Soubory doplňující fotodokumentace k několika realizacím.",
-    "subcontractor": "",
-    "period": "",
-    "type": "Kanalizace a vodovod",
-    "image": "/images/doplnujici_foto.jpg"
-  },
-  {
-    "id": 15,
-    "name": "Hybernská 23",
-    "shortDescription": "Revize kanalizační šachty a sanace stávajícího řadu.",
-    "longDescription": "Komplexní sanace kanalizačního řadu pod Hybernskou 23 v Praze.",
-    "subcontractor": "",
-    "period": "",
-    "type": "Zemní práce",
-    "image": "/images/construction1.jpg"
-  },
-  {
-    "id": 16,
-    "name": "Kladenská výpadovka",
-    "shortDescription": "Stavební příprava nové komunikace.",
-    "longDescription": "Zemní práce pro výstavbu rozšířené komunikace směrem na Kladno.",
-    "subcontractor": "",
-    "period": "",
-    "type": "Zemní práce",
-    "image": "/images/construction1.jpg"
+    "image": "/images/kobylisy_1.jpg",
+    "images": [
+      "/images/kobylisy_1.jpg"
+    ]
   },
   {
     "id": 17,
-    "name": "Praha Hostivař (Triangel)",
+    "name": "Optimalizace traťovéhp úseku Praha Hostivař - Část EDEN",
     "shortDescription": "Příprava podkladů pro budoucí stavbu Triangel.",
     "longDescription": "Zemní práce a uzemnění pro stavbu administrativního centra Triangel v Hostivaři.",
-    "subcontractor": "",
-    "period": "",
+    "subcontractor": "Metrostav TBR a.s.",
+    "period": "2021",
     "type": "Zemní práce",
-    "image": "/images/Hostivar_triangel_1.jpg"
+    "image": "/images/Hostivar_triangel_1.jpg",
+    "images": [
+      "/images/Hostivar_eden_1.jpg"
+    ]
   },
   {
-    "id": 18,
-    "name": "Praha Hostivař (Eden)",
-    "shortDescription": "Zemní práce pro projekt Eden.",
-    "longDescription": "Výkopové práce, zásypy a příprava na pokládku sítí pro projekt Eden v Hostivaři.",
-    "subcontractor": "",
-    "period": "",
+    "id": 17,
+    "name": "Optimalizace traťovéhp úseku Praha Hostivař - Část Průběžná",
+    "shortDescription": "Příprava podkladů pro budoucí stavbu Triangel.",
+    "longDescription": "Zemní práce a uzemnění pro stavbu administrativního centra Triangel v Hostivaři.",
+    "subcontractor": "Metrostav TBR a.s.",
+    "period": "2020-2021",
     "type": "Zemní práce",
-    "image": "/images/Hostivar_eden_1.jpg"
+    "image": "/images/Hostivar_triangel_1.jpg",
+    "images": [
+      "/images/prubezna_1.jpg"
+    ]
   },
   {
-    "id": 19,
-    "name": "Praha Hostivař (Průběžná)",
-    "shortDescription": "Zemní práce a příprava pod asfalt na Průběžné ulici.",
-    "longDescription": "Projekt na ulici Průběžná v Praze Hostivaři zahrnoval zemní práce, přesuny materiálu a přípravu pro pokládku asfaltu v hustě vytíženém území a dodržení všech technologických standardů.",
-    "subcontractor": "Metrostav",
-    "period": "",
+    "id": 17,
+    "name": "Optimalizace traťovéhp úseku Praha Hostivař - Část Triangel",
+    "shortDescription": "Příprava podkladů pro budoucí stavbu Triangel.",
+    "longDescription": "Zemní práce a uzemnění pro stavbu administrativního centra Triangel v Hostivaři.",
+    "subcontractor": "Metrostav TBR a.s.",
+    "period": "2021",
     "type": "Zemní práce",
-    "image": "/images/prubezna_1.jpg"
+    "image": "/images/Hostivar_triangel_1.jpg",
+    "images": [
+      "/images/Hostivar_triangel_1.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "name": "D7 MÚK Aviatická – Lávka letiště Praha",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "Metrostav TBR a.s.",
+    "period": "2025",
+    "type": "",
+    "images": [
+      "/images/d7_muk_aviaticka_lavka_letiste_praha_1.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Dobříš levandulová",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "Nikdo ",
+    "period": "2023",
+    "type": "",
+    "images": [
+      "/images/dobris_levandulova_1.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Dobříš rekonstrukce detského hřiště",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "",
+    "period": "2024",
+    "type": "",
+    "images": [
+      "/images/dobris_rekonstrukce_detskeho_hriste_1.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Dobříš Šeříková",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "Nikdo ",
+    "period": "2023",
+    "type": "",
+    "images": [
+      "/images/dobris_serikova_1.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Novostavba Hostivař- zemní práce",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "BAMMA s.r.o.",
+    "period": "2024",
+    "type": "",
+    "images": [
+      "/images/novostavba_hostivar_zemni_prace_1.jpg"
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Obec Pičín \"u Fary",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "Žadný ",
+    "period": "2025",
+    "type": "",
+    "images": [
+      "/images/obec_picin_u_fary_1.jpg"
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Obnova povrchu komunikace Sídliště Štědrík, psáry, dolní Jírčany",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "Žadný ",
+    "period": "2025",
+    "type": "",
+    "images": [
+      "/images/obnova_povrchu_komunikace_sidliste_stedrik_psary_dolni_jircany_1.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Obnova povrchů Na flusarně, Žižková, Havlíčková",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "Žadný ",
+    "period": "2025",
+    "type": "",
+    "images": [
+      "/images/obnova_povrchu_na_flusarne_zizkova_havlickova_1.jpg"
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Obnova povrchů, Ulice Čapková, Na kaminkách",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "Žadný ",
+    "period": "2025",
+    "type": "",
+    "images": [
+      "/images/obnova_povrchu_ulice_capkova_na_kaminkach_1.jpg"
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Příjezdová cesta - Obecnice",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "Nikdo ",
+    "period": "2025",
+    "type": "",
+    "images": [
+      "/images/prijezdova_cesta_obecnice_1.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "name": "RADNICKÝ POTOK Ř. KM 9,580 – 11,400",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "Žadný ",
+    "period": "2025-2026",
+    "type": "",
+    "images": [
+      "/images/radnicky_potok_r_km_9_580_11_400_1.jpg"
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Výstavba kanalizace ulice Tělovýchovná a okolí, Praha 13  č.inv. akce 11K6800",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "Subterra a.s.",
+    "period": "2024",
+    "type": "",
+    "images": [
+      "/images/vystavba_kanalizace_ulice_telovychovna_a_okoli_praha_13_c_inv_akce_11k6800_1.jpg"
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Zbiroh - Ulice Sládková",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "Žadný ",
+    "period": "2025",
+    "type": "",
+    "images": [
+      "/images/zbiroh_ulice_sladkova_1.jpg"
+    ]
+  },
+  {
+    "id": 33,
+    "name": "„Šlovice - chodník u silnice III/18032e",
+    "shortDescription": "",
+    "longDescription": "",
+    "subcontractor": "Žadný ",
+    "period": "2024-2025",
+    "type": "",
+    "images": [
+      "/images/slovice_chodnik_u_silnice_iii_18032e_1.jpg"
+    ]
   }
 ]

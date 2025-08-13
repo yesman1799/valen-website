@@ -16,9 +16,15 @@
         <strong>Generální dodavetel:</strong> {{ reference.subcontractor }}
       </div>
 
+      <!-- Zde je jediná změna - místo 2x stejného obrázku iterujeme přes images[] -->
       <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <img :src="reference.image" alt="Reference image" class="w-full h-64 object-cover rounded-xl" />
-        <img :src="reference.image" alt="Reference image" class="w-full h-64 object-cover rounded-xl" />
+        <img
+          v-for="(img, i) in getImages(reference)"
+          :key="i"
+          :src="img"
+          :alt="`${reference.name} – foto ${i+1}`"
+          class="w-full h-64 object-cover rounded-xl"
+        />
       </div>
     </div>
     
@@ -45,9 +51,18 @@ export default {
       router.push('/references');
     };
 
+    // Nová metoda na získání fotek
+    const getImages = (ref) => {
+      const imgs = Array.isArray(ref?.images)
+        ? ref.images
+        : (ref?.image ? [ref.image] : []);
+      return [...new Set(imgs.filter(Boolean))];
+    };
+
     return {
       reference,
-      goBack
+      goBack,
+      getImages
     };
   }
 };

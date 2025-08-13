@@ -35,7 +35,7 @@
           <p v-if="reference.period" class="text-sm text-gray-400 mt-1">Období: {{ reference.period }}</p>
         </div>
         <img 
-          :src="reference.image" 
+          :src="getImages(reference)[0]" 
           alt="reference image" 
           class="w-full md:w-64 h-48 object-cover"
         />
@@ -71,13 +71,21 @@ export default {
       router.push(`/reference/${id}`);
     };
 
+    const getImages = (refItem) => {
+      const imgs = Array.isArray(refItem?.images)
+        ? refItem.images
+        : (refItem?.image ? [refItem.image] : []);
+      return [...new Set(imgs.filter(Boolean))];
+    };
+
     return {
       references,
       categories,
       selectedCategory,
       selectCategory,
       filteredReferences,
-      goToReference
+      goToReference,
+      getImages
     };
   }
 };
