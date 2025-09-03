@@ -44,7 +44,8 @@
     "period": "2024",
     "type": "Zemní práce",
     "images": [
-      "/images/dobris_rekonstrukce_detskeho_hriste_1.jpg"
+      "/images/dobris_rekonstrukce_detskeho_hriste_1.jpg",
+      "/images/dobris_rekonstrukce_detskeho_hriste_2.jpg"
     ]
   },
   {
@@ -188,7 +189,8 @@
     "period": "2025",
     "type": "Rekonstrukce silnic",
     "images": [
-      "/images/zbiroh_ulice_sladkova_1.jpg"
+      "/images/zbiroh_ulice_sladkova_1.jpg",
+      "/images/zbiroh_ulice_sladkova_2.jpg"
     ]
   },
   {
@@ -200,7 +202,9 @@
     "period": "2024-2025",
     "type": "Rekonstrukce silnic",
     "images": [
-      "/images/slovice_chodnik_u_silnice_iii_18032e_1.jpg"
+      "/images/slovice_chodnik_u_silnice_iii_18032e_1.jpg",
+      "/images/slovice_chodnik_u_silnice_iii_18032e_2.jpg",
+      "/images/slovice_chodnik_u_silnice_iii_18032e_3.jpg"
     ]
   },
   {
