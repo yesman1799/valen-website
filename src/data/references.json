@@ -8,7 +8,10 @@
     "period": "2025",
     "type": "Rekonstrukce silnic",
     "images": [
-      "/images/d7_muk_aviaticka_lavka_letiste_praha_1.jpg"
+      "/images/d7_muk_aviaticka_lavka_letiste_praha_1.jpg",
+      "/images/d7_muk_aviaticka_lavka_letiste_praha_2.jpg",
+      "/images/d7_muk_aviaticka_lavka_letiste_praha_3.jpg",
+      "/images/d7_muk_aviaticka_lavka_letiste_praha_4.jpg"
     ]
   },
   {
@@ -93,7 +96,10 @@
     "period": "2025",
     "type": "Rekonstrukce silnic",
     "images": [
-      "/images/obnova_povrchu_komunikace_sidliste_stedrik_psary_dolni_jircany_1.jpg"
+      "/images/obnova_povrchu_komunikace_sidliste_stedrik_psary_dolni_jircany_1.jpg",
+      "/images/obnova_povrchu_komunikace_sidliste_stedrik_psary_dolni_jircany_2.jpg",
+      "/images/obnova_povrchu_komunikace_sidliste_stedrik_psary_dolni_jircany_3.jpg",
+      "/images/obnova_povrchu_komunikace_sidliste_stedrik_psary_dolni_jircany_4.jpg"
     ]
   },
   {
@@ -105,7 +111,9 @@
     "period": "2025",
     "type": "Rekonstrukce silnic",
     "images": [
-      "/images/obnova_povrchu_na_flusarne_zizkova_havlickova_1.jpg"
+      "/images/obnova_povrchu_na_flusarne_zizkova_havlickova_1.jpg",
+      "/images/obnova_povrchu_na_flusarne_zizkova_havlickova_2.jpg",
+      "/images/obnova_povrchu_na_flusarne_zizkova_havlickova_3.jpg"
     ]
   },
   {
@@ -117,7 +125,10 @@
     "period": "2025",
     "type": "Rekonstrukce silnic",
     "images": [
-      "/images/obnova_povrchu_ulice_capkova_na_kaminkach_1.jpg"
+      "/images/obnova_povrchu_ulice_capkova_na_kaminkach_1.jpg",
+      "/images/obnova_povrchu_ulice_capkova_na_kaminkach_2.jpg",
+      "/images/obnova_povrchu_ulice_capkova_na_kaminkach_3.jpg",
+      "/images/obnova_povrchu_ulice_capkova_na_kaminkach_4.jpg"
     ]
   },
   {
@@ -129,7 +140,9 @@
     "period": "2025",
     "type": "Rekonstrukce silnic",
     "images": [
-      "/images/prijezdova_cesta_obecnice_1.jpg"
+      "/images/prijezdova_cesta_obecnice_1.jpg",
+      "/images/prijezdova_cesta_obecnice_2.jpg",
+      "/images/prijezdova_cesta_obecnice_3.jpg"
     ]
   },
   {
@@ -153,7 +166,8 @@
     "period": "2021-2024",
     "type": "Zemní práce",
     "images": [
-      "/images/slivenec_1.jpg"
+      "/images/slivenec_1.jpg",
+      "immages/slivenec_2.jpg"
     ]
   },
   {
@@ -216,7 +230,9 @@
     "period": "2024",
     "type": "Rodinné domy",
     "images": [
-      "/images/novostavba_viladomu_kobylisy_zemni_prace_1.jpg"
+      "/images/novostavba_viladomu_kobylisy_zemni_prace_1.jpg",
+      "/images/novostavba_viladomu_kobylisy_zemni_prace_2.jpg",
+      "/images/novostavba_viladomu_kobylisy_zemni_prace_3.jpg"
     ]
   },
   {
@@ -264,7 +280,9 @@
     "period": "2020-2021",
     "type": "Zemní práce",
     "images": [
-      "/images/prubezna_1.jpg"
+      "/images/prubezna_1.jpg",
+      "/images/prubezna_2.jpg",
+      "/images/prubezna_3.jpg"
     ]
   },
   {
@@ -276,7 +294,8 @@
     "period": "2021",
     "type": "Zemní práce",
     "images": [
-      "/images/hostivar_triangel_1.jpg"
+      "/images/hostivar_triangel_1.jpg",
+      "/images/hostivar_triangel_2.jpg"
     ]
   },
   {
