@@ -16,30 +16,6 @@
   },
   {
     "id": 2,
-    "name": "Dobříš Obnova povrchů",
-    "shortDescription": "Osazení obrubníků, pokládka zamkové dlažby, odvodnění povrchů.",
-    "longDescription": "Osazení obrubníků, pokládka zamkové dlažby, odvodnění povrchů Realizace probíhala v období 2024. Generální dodavatel / partner: Nikdo. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Nikdo",
-    "period": "2024",
-    "type": "Rekonstrukce silnic",
-    "images": [
-      "/images/dobris_obnova_povrchu_1.jpg"
-    ]
-  },
-  {
-    "id": 3,
-    "name": "Dobříš levandulová",
-    "shortDescription": "Rekonstrukce Ulice Šeříková , odebrání asfaltových vrstev, pokládka nové dlažby.",
-    "longDescription": "Rekonstrukce Ulice Šeříková , odebrání asfaltových vrstev, pokládka nové dlažby Realizace probíhala v období 2023. Generální dodavatel / partner: Nikdo. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Nikdo",
-    "period": "2023",
-    "type": "Rekonstrukce silnic",
-    "images": [
-      "/images/dobris_levandulova_1.jpg"
-    ]
-  },
-  {
-    "id": 4,
     "name": "Dobříš rekonstrukce detského hřiště",
     "shortDescription": "Kompletní rekonstrukce hriště, pokládka kamenných prvků a povrchů.",
     "longDescription": "Kompletní rekonstrukce hriště, pokládka kamenných prvků a povrchů Realizace probíhala v období 2024. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
@@ -52,15 +28,30 @@
     ]
   },
   {
-    "id": 5,
-    "name": "Dobříš Šeříková",
-    "shortDescription": "Rekonstrukce Ulice Levandulová, odebrání asfaltu, pokládka nové dlažby.",
-    "longDescription": "Rekonstrukce Ulice Levandulová, odebrání asfaltu, pokládka nové dlažby Realizace probíhala v období 2023. Generální dodavatel / partner: Nikdo. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "id": 3,
+    "name": "Dobříš levandulová",
+    "shortDescription": "Rekonstrukce Ulice Šeříková , odebrání asfaltových vrstev, pokládka nové dlažby.",
+    "longDescription": "Rekonstrukce Ulice Šeříková , odebrání asfaltových vrstev, pokládka nové dlažby Realizace probíhala v období 2023. Generální dodavatel / partner: Nikdo. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
     "subcontractor": "Nikdo",
     "period": "2023",
     "type": "Rekonstrukce silnic",
     "images": [
-      "/images/dobris_serikova_1.jpg"
+      "/images/dobris_levandulova_1.jpg",
+      "/images/dobris_levandulova_2.jpg",
+      "/images/dobris_levandulova_3.jpg",
+      "/images/dobris_levandulova_4.jpg"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Dobříš Obnova povrchů",
+    "shortDescription": "Osazení obrubníků, pokládka zamkové dlažby, odvodnění povrchů.",
+    "longDescription": "Osazení obrubníků, pokládka zamkové dlažby, odvodnění povrchů Realizace probíhala v období 2024. Generální dodavatel / partner: Nikdo. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "subcontractor": "Nikdo",
+    "period": "2024",
+    "type": "Rekonstrukce silnic",
+    "images": [
+      "/images/dobris_obnova_povrchu_1.jpg"
     ]
   },
   {
@@ -77,7 +68,7 @@
   },
   {
     "id": 7,
-    "name": "Obec Pičín \"u Fary",
+    "name": "Obec Pičín u Fary",
     "shortDescription": "Zemní práce a úpravy terénu v lokalitě Pičín – U Fary.",
     "longDescription": "Zemní práce a úpravy terénu v lokalitě Pičín – U Fary Realizace probíhala v období 2025. Generální dodavatel / partner: Žadný. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
     "subcontractor": "Žadný",
