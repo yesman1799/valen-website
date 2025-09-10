@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+  <defs>
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6EC1FF"/>
+      <stop offset="100%" stop-color="#1E88E5"/>
+    </linearGradient>
+    <linearGradient id="roofGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#8ED1FF"/>
+      <stop offset="100%" stop-color="#2D7DEB"/>
+    </linearGradient>
+    <linearGradient id="swooshGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#D9EEFF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#EAF6FF" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Transparent background for versatility -->
+  <rect width="256" height="256" fill="none"/>
+
+  <!-- Soft ground swoosh -->
+  <path d="M10,172 C60,150 120,150 246,184 L246,210 L10,210 Z" fill="url(#swooshGrad)"/>
+
+  <!-- Left small house -->
+  <g transform="translate(28,112) scale(0.9)">
+    <polygon points="28,10 58,32 0,32" fill="url(#roofGrad)" stroke="#0F60C8" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="8" y="32" width="42" height="30" rx="3" fill="#FFFFFF" stroke="#3B6FC6" stroke-width="2"/>
+    <rect x="16" y="40" width="10" height="10" fill="#DDEAFB" stroke="#8FB3F1" stroke-width="1"/>
+    <rect x="32" y="40" width="10" height="10" fill="#DDEAFB" stroke="#8FB3F1" stroke-width="1"/>
+  </g>
+
+  <!-- Center main house -->
+  <g transform="translate(86,76)">
+    <polygon points="64,0 128,48 0,48" fill="url(#roofGrad2)" stroke="#0F60C8" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="14" y="48" width="100" height="64" rx="4" fill="#FFFFFF" stroke="#2B66C0" stroke-width="3"/>
+    <!-- Door -->
+    <rect x="66" y="68" width="20" height="44" rx="2" fill="#EAF2FF" stroke="#8FB3F1" stroke-width="2"/>
+    <!-- Windows -->
+    <rect x="26" y="62" width="20" height="16" fill="#DDEAFB" stroke="#8FB3F1" stroke-width="1.5"/>
+    <rect x="96" y="62" width="20" height="16" fill="#DDEAFB" stroke="#8FB3F1" stroke-width="1.5"/>
+  </g>
+
+  <!-- Right tiny annex -->
+  <g transform="translate(186,122) scale(0.8)">
+    <polygon points="22,8 46,26 0,26" fill="url(#roofGrad)" stroke="#0F60C8" stroke-width="3" stroke-linejoin="round"/>
+    <rect x="6" y="26" width="34" height="26" rx="3" fill="#FFFFFF" stroke="#3B6FC6" stroke-width="2"/>
+    <rect x="14" y="32" width="10" height="10" fill="#DDEAFB" stroke="#8FB3F1" stroke-width="1"/>
+  </g>
+
+  <!-- Subtle gloss highlight on central roof -->
+  <path d="M94,92 C125,72 149,72 180,92" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Invisible padding for crisp rendering at small sizes -->
+  <rect x="1" y="1" width="254" height="254" fill="none" stroke="none"/>
+</svg>
