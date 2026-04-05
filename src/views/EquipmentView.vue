@@ -27,7 +27,7 @@
         :key="item.id"
         class="bg-white rounded-2xl shadow-md hover:shadow-xl border border-gray-200 overflow-hidden transition-transform transform hover:scale-105"
       >
-        <img :src="item.image" alt="equipment image" class="w-full h-64 md:h-72 object-cover rounded-t-2xl">
+        <img :src="item.image" alt="equipment image" class="w-full h-64 md:h-80 object-contain bg-gray-100 rounded-t-2xl">
         <div class="p-6">
           <h2 class="text-2xl font-bold text-secondary mb-4">{{ item.name }}</h2>
           <p class="text-gray-600 mb-4">{{ item.description }}</p>

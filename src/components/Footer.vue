@@ -11,10 +11,12 @@
         </div>
         <div>
           <h3 class="text-xl font-bold mb-2 text-secondary">Adresa</h3>
-          <p>VALEN s.r.o.</p>
+          <p class="font-semibold">VALEN s.r.o.</p>
+          <p class="text-sm text-gray-500 mt-1">Sídlo:</p>
           <p>Nad Prachandou 840</p>
-          <p>Dobříš 263 01</p>
-          <p>IČO: 28954149</p>
+          <p class="text-sm text-gray-500 mt-1">Provozovna:</p>
+          <p>Malá Hraštice 168</p>
+          <p class="mt-1">IČO: 28954149</p>
           <p>DIČ: CZ28954149</p>
         </div>
         <div>

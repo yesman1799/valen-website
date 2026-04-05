@@ -8,8 +8,10 @@
         <h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4 sm:mb-6">VALEN s.r.o.</h2>
         <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">IČO: 28954149</p>
         <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">DIČ: CZ28954149</p>
+        <p class="text-sm font-semibold text-gray-500 mt-3 mb-1">Sídlo:</p>
+        <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">Valen s.r.o., Nad Prachandou 840</p>
+        <p class="text-sm font-semibold text-gray-500 mt-3 mb-1">Provozovna:</p>
         <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">Malá Hraštice 168</p>
-        <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">Malá Hraštice, PSČ 262 03</p>
         <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">📞 <a href="tel:777564235" class="text-secondary hover:underline">777 564 235</a></p>
         <p class="text-base sm:text-lg text-gray-700 mb-1 sm:mb-2">✉️ <a href="mailto:valen2009@seznam.cz" class="text-secondary hover:underline">valen2009@seznam.cz</a></p>
         <p class="text-base sm:text-lg text-gray-700">🌍 <a href="https://www.valen.cz" target="_blank" class="text-secondary hover:underline">www.valen.cz</a></p>

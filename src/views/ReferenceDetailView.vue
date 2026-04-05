@@ -12,8 +12,14 @@
         <strong>Období:</strong> {{ reference.period }}
       </div>
 
-      <div v-if="reference.subcontractor" class="text-sm text-gray-500 mb-4">
+      <div v-if="reference.subcontractor" class="text-sm text-gray-500 mb-2">
         <strong>Generální dodavetel:</strong> {{ reference.subcontractor }}
+      </div>
+
+      <div v-if="reference.mapUrl" class="text-sm text-gray-500 mb-4">
+        <a :href="reference.mapUrl" target="_blank" rel="noopener noreferrer" class="text-secondary hover:underline">
+          📍 Zobrazit na mapě
+        </a>
       </div>
 
       <!-- Zde je jediná změna - místo 2x stejného obrázku iterujeme přes images[] -->
