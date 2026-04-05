@@ -1,10 +1,11 @@
 [
   {
     "id": 1,
-    "name": "D7 MÚK Aviatická – Lávka letiště Praha",
-    "shortDescription": "Osazení obrubníků, pokládka zamkové dlažby, odvodnění povrchů.",
-    "longDescription": "Osazení obrubníků, pokládka zamkové dlažby, odvodnění povrchů Realizace probíhala v období 2025. Generální dodavatel / partner: Metrostav TBR a.s.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Metrostav TBR a.s.",
+    "visible": true,
+    "name": "Aviatická letiště",
+    "shortDescription": "Komplexní realizace stavebních, zemních a bouracích prací. Stavba provedena bez vad a nedodělků.",
+    "longDescription": "Komplexní realizace stavebních, zemních a bouracích prací. Vzhledem k rozsahu projektu a návaznosti jednotlivých etap byl během realizace kladen velký důraz na přesnou koordinaci se všemi dotčenými subjekty. Stavba byla provedena bez žadných vad a nedodělků.",
+    "subcontractor": "",
     "period": "2025",
     "type": "Rekonstrukce silnic",
     "images": [
@@ -16,12 +17,13 @@
   },
   {
     "id": 2,
+    "visible": true,
     "name": "Dobříš rekonstrukce detského hřiště",
-    "shortDescription": "Kompletní rekonstrukce hriště, pokládka kamenných prvků a povrchů.",
-    "longDescription": "Kompletní rekonstrukce hriště, pokládka kamenných prvků a povrchů Realizace probíhala v období 2024. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "shortDescription": "Kompletní rekonstrukce hřiště, pokládka kamenných prvků a povrchů.",
+    "longDescription": "Kompletní rekonstrukce hřiště, pokládka kamenných prvků a povrchů. Realizace probíhala v období 2024.",
     "subcontractor": "",
     "period": "2024",
-    "type": "Zemní práce",
+    "type": "Rekonstrukce silnic",
     "images": [
       "/images/dobris_rekonstrukce_detskeho_hriste_1.jpg",
       "/images/dobris_rekonstrukce_detskeho_hriste_2.jpg"
@@ -29,10 +31,11 @@
   },
   {
     "id": 3,
-    "name": "Dobříš levandulová",
-    "shortDescription": "Rekonstrukce Ulice Šeříková , odebrání asfaltových vrstev, pokládka nové dlažby.",
-    "longDescription": "Rekonstrukce Ulice Šeříková , odebrání asfaltových vrstev, pokládka nové dlažby Realizace probíhala v období 2023. Generální dodavatel / partner: Nikdo. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Nikdo",
+    "visible": true,
+    "name": "Rekonstrukce ul. Levandulová + Obnova povrchu ul. Šeříková",
+    "shortDescription": "Kompletní výstavba komunikací a přilehlých zpevněných ploch včetně pokládky dlažby a asfaltových povrchů.",
+    "longDescription": "Při realizaci tohoto projektu jsme zajišťovali kompletní výstavbu komunikací a přilehlých zpevněných ploch. Práce jsme zahájili celkovým odkopem stavby a důkladnou přípravou pláně. Následovala přesná montáž obrubníků, na kterou plynule navázala pokládka dlažby a odborná realizace asfaltových povrchů. Postarali jsme se také o veškeré nezbytné dokončovací práce a finální úpravy terénu. Celé dílo bylo úspěšně předáno zadavateli v plné kvalitě, bez jakýchkoliv vad a nedodělků.",
+    "subcontractor": "",
     "period": "2023",
     "type": "Rekonstrukce silnic",
     "images": [
@@ -44,46 +47,49 @@
   },
   {
     "id": 4,
+    "visible": false,
     "name": "Dobříš Obnova povrchů",
     "shortDescription": "Osazení obrubníků, pokládka zamkové dlažby, odvodnění povrchů.",
-    "longDescription": "Osazení obrubníků, pokládka zamkové dlažby, odvodnění povrchů Realizace probíhala v období 2024. Generální dodavatel / partner: Nikdo. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Nikdo",
+    "longDescription": "Osazení obrubníků, pokládka zamkové dlažby, odvodnění povrchů.",
+    "subcontractor": "",
     "period": "2024",
     "type": "Rekonstrukce silnic",
-    "images": [
-      "/images/dobris_obnova_povrchu_1.jpg"
-    ]
+    "images": []
   },
   {
     "id": 6,
-    "name": "Novostavba Hostivař- zemní práce",
-    "shortDescription": "Výkopové práce, zásypy a zemní úpravy pro novostavbu.",
-    "longDescription": "Výkopové práce, zásypy a zemní úpravy pro novostavbu Realizace probíhala v období 2024. Generální dodavatel / partner: BAMMA s.r.o.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "BAMMA s.r.o.",
+    "visible": true,
+    "name": "RD Hostivař",
+    "shortDescription": "Zemní práce pro projekt rodinného domu – hloubení stavební jámy, výkopy, odvoz materiálu.",
+    "longDescription": "Praha Hostivař – RD: Úspěšně jsme realizovali zemní práce pro projekt rodinného domu. Naší hlavní úlohou byla precizní příprava území pro zakládání stavby. Přesné hloubení stavební jámy i výkopy. Součástí naší dodávky byl také kompletní odvoz vytěženého materiálu. Celé dílo bylo odevzdáno v domluveném termínu bez vad a nedodělků.",
+    "subcontractor": "",
     "period": "2024",
     "type": "Zemní práce",
     "images": [
-      "/images/novostavba_hostivar_zemni_prace_1.jpg"
+      "/images/rd_hostivar_1.jpg",
+      "/images/rd_hostivar_2.jpg"
     ]
   },
   {
     "id": 7,
-    "name": "Obec Pičín u Fary",
-    "shortDescription": "Zemní práce a úpravy terénu v lokalitě Pičín – U Fary.",
-    "longDescription": "Zemní práce a úpravy terénu v lokalitě Pičín – U Fary Realizace probíhala v období 2025. Generální dodavatel / partner: Žadný. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Žadný",
+    "visible": true,
+    "name": "Oprava komunikace a nový chodník – Obec Pičín u Fary",
+    "shortDescription": "Oprava stávající komunikace a vybudování nového chodníku v lokalitě u Fary. Stavba odevzdána bez vad.",
+    "longDescription": "Předmětem veřejné zakázky jsou stavební práce spočívající v opravě stávající komunikace a vybudování nového chodníku v lokalitě u Fary. Stavba byla odevzdaná bez žadných vad a nedodělků.",
+    "subcontractor": "",
     "period": "2025",
-    "type": "Zemní práce",
+    "type": "Rekonstrukce silnic",
     "images": [
       "/images/obec_picin_u_fary_1.jpg"
     ]
   },
   {
     "id": 8,
-    "name": "Obnova povrchu komunikace Sídliště Štědrík, psáry, dolní Jírčany",
-    "shortDescription": "Obnova komunikací včetně obrubníků a povrchových vrstev.",
-    "longDescription": "Obnova komunikací včetně obrubníků a povrchových vrstev Realizace probíhala v období 2025. Generální dodavatel / partner: Žadný. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Žadný",
+    "visible": true,
+    "name": "Obnova povrchu komunikace sídliště Štědřík, Psáry, Dolní Jirčany",
+    "shortDescription": "Rozsáhlá rekonstrukce komunikace 1 400 m² včetně obnovy asfaltových vrstev a výstavby parkovacích stání.",
+    "longDescription": "V rámci této zakázky jsme realizovali rozsáhlou rekonstrukci komunikace o rozloze přibližně 1 400 m². Práce spočívaly v kompletní obnově asfaltových vrstev a případné lokální sanaci štěrkového podloží. Na opravu vozovky plynule navázala výstavba nových parkovacích stání ze spádované distanční dlažby. Parkovací plochy jsme pečlivě ohraničili kombinací přejízdných a silničních obrubníků uložených do pevného betonového lože. V místech, kde to vyžadoval stav terénu, jsme provedli kompletní výměnu aktivní zóny a podkladních vrstev. Po provedení všech prací byla stavba úspěšně odevzdána zadavateli v plné kvalitě a zcela bez vad a nedodělků.",
+    "subcontractor": "",
     "period": "2025",
     "type": "Rekonstrukce silnic",
     "images": [
@@ -95,10 +101,11 @@
   },
   {
     "id": 9,
-    "name": "Obnova povrchů Na flusarně, Žižková, Havlíčková",
-    "shortDescription": "Rekonstrukce místních komunikací – výměna povrchů, obrubníků a odvodnění.",
-    "longDescription": "Rekonstrukce místních komunikací – výměna povrchů, obrubníků a odvodnění Realizace probíhala v období 2025. Generální dodavatel / partner: Žadný. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Žadný",
+    "visible": true,
+    "name": "Obnova povrchů Na Flusárně, Žižková, Havlíčkova",
+    "shortDescription": "Kompletní obnova povrchů ve třech ulicích – frézování, podloží MZK, nové asfalty.",
+    "longDescription": "Tato zakázka zahrnovala kompletní stavební úpravy a obnovu povrchů hned ve třech ulicích – Žižkova, Havlíčkova a Na Flusárně. Práce jsme zahájili plošným odstraněním stávajících asfaltů. Následovala pečlivá příprava podloží, která spočívala v pokládce mechanicky zpevněného kameniva (MZK). Zásadní součástí projektu byla také přesná výšková úprava všech uličních poklopů a vpustí, aby plynule navazovaly na novou vozovku. Projekt jsme završili pokládkou nových kvalitních asfaltových povrchů a celkovou finální úpravou uličního prostoru. Hotová stavba byla předána zadavateli v dohodnutém termínu a zcela bez vad a nedodělků.",
+    "subcontractor": "",
     "period": "2025",
     "type": "Rekonstrukce silnic",
     "images": [
@@ -109,10 +116,11 @@
   },
   {
     "id": 10,
-    "name": "Obnova povrchů, Ulice Čapková, Na kaminkách",
-    "shortDescription": "Obnova komunikací a souvisejících prvků v ulicích Čapková a Na Kamínkách.",
-    "longDescription": "Obnova komunikací a souvisejících prvků v ulicích Čapková a Na Kamínkách Realizace probíhala v období 2025. Generální dodavatel / partner: Žadný. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Žadný",
+    "visible": true,
+    "name": "Obnova povrchů ulice Čapková, Na Kaminkách",
+    "shortDescription": "Kompletní obnova povrchů ve dvou ulicích – frézování, výšková úprava poklopů, nové asfalty.",
+    "longDescription": "Tato zakázka zahrnovala kompletní stavební úpravy a obnovu povrchů hned ve dvou ulicích – Na Kaminkách, Čapková. Práce jsme zahájili plošným odstraněním stávajících asfaltů. Zásadní součástí projektu byla také přesná výšková úprava všech uličních poklopů a vpustí, aby plynule navazovaly na novou vozovku. Projekt jsme završili pokládkou nových kvalitních asfaltových povrchů a celkovou finální úpravou uličního prostoru. Hotová stavba byla předána zadavateli v dohodnutém termínu a zcela bez vad a nedodělků.",
+    "subcontractor": "",
     "period": "2025",
     "type": "Rekonstrukce silnic",
     "images": [
@@ -123,88 +131,88 @@
     ]
   },
   {
-    "id": 11,
-    "name": "Příjezdová cesta - Obecnice",
-    "shortDescription": "Provadění příjezdové cesty v obci Obecnice – zemní práce a podklady.",
-    "longDescription": "Provadění příjezdové cesty v obci Obecnice, byl použit recyklát Realizace probíhala v období 2025. Generální dodavatel / partner: Nikdo. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Nikdo",
-    "period": "2025",
-    "type": "Rekonstrukce silnic",
-    "images": [
-      "/images/prijezdova_cesta_obecnice_1.jpg",
-      "/images/prijezdova_cesta_obecnice_2.jpg",
-      "/images/prijezdova_cesta_obecnice_3.jpg"
-    ]
-  },
-  {
     "id": 12,
+    "visible": false,
     "name": "RADNICKÝ POTOK Ř. KM 9,580 – 11,400",
     "shortDescription": "Zemní a vodohospodářské práce v úseku Radnického potoka.",
-    "longDescription": "Zemní a vodohospodářské práce v úseku Radnického potoka Realizace probíhala v období 2025-2026. Generální dodavatel / partner: Žadný. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Žadný",
+    "longDescription": "Zemní a vodohospodářské práce v úseku Radnického potoka.",
+    "subcontractor": "",
     "period": "2025-2026",
     "type": "Zemní práce",
-    "images": [
-      "/images/radnicky_potok_r_km_9_580_11_400_1.jpg"
-    ]
+    "images": []
   },
   {
     "id": 13,
-    "name": "Slivenec",
-    "shortDescription": "Rozděleno na 4 etapy stavby, pokládka deštové kanalizace.",
-    "longDescription": "Rozděleno na 4 etapy stavby, pokládka deštové kanalizace Realizace probíhala v období 2021-2024. Generální dodavatel / partner: Subterra a.s.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "visible": true,
+    "name": "Stavba č. 0050 TV Slivenec, etapa 0005 Komunikace Slivenec",
+    "shortDescription": "Kompletní výstavba nových kanalizačních sítí – dešťová i splašková kanalizace, revizní šachty.",
+    "longDescription": "Při realizaci významného infrastrukturního projektu ve Slivenci (Stavba č. 0050 TV Slivenec) jsme měli na starosti kompletní výstavbu nových kanalizačních sítí. Naše práce odstartovaly zemními výkopy a precizní přípravou podloží pro uložení trubek. Následně jsme provedli odbornou pokládku potrubí pro dešťovou i splaškovou kanalizaci. Zajišťovali jsme také kompletní výstavbu revizních šachet, bezpečné napojení na stávající řady a finální zpětné zásypy s certifikovaným hutněním. Celá naše část stavby proběhla podle harmonogramu a po dokončení byla odevzdána zcela bez vad a nedodělků.",
     "subcontractor": "Subterra a.s.",
-    "period": "2021-2024",
-    "type": "Zemní práce",
+    "period": "2021–2024",
+    "type": "Kanalizace a vodovod",
     "images": [
       "/images/slivenec_1.jpg",
-      "immages/slivenec_2.jpg"
+      "/images/slivenec_3.jpg",
+      "/images/slivenec_new_1.png",
+      "/images/slivenec_new_2.png",
+      "/images/slivenec_new_3.png",
+      "/images/slivenec_new_4.png"
     ]
   },
   {
     "id": 14,
-    "name": "Strakonická, podchod D4 - Mimoúrovňové křížení",
-    "shortDescription": "Zemní práce, pokládka deštové kanalizace dn400.",
-    "longDescription": "Zemní práce, pokládka deštové kanalizace dn400 Realizace probíhala v období 2024-2025. Generální dodavatel / partner: Metrostav TBR a.s.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Metrostav TBR a.s.",
+    "visible": false,
+    "name": "Strakonická, podchod D4 – duplikát",
+    "shortDescription": "Duplikát záznamu.",
+    "longDescription": "Duplikát záznamu.",
+    "subcontractor": "",
     "period": "2024-2025",
     "type": "Kanalizace a vodovod",
-    "images": [
-      "/images/strakonicka_podchod_d4_mimourovnove_krizeni_1.jpg"
-    ]
+    "images": []
   },
   {
     "id": 15,
-    "name": "Výstavba kanalizace ulice Tělovýchovná a okolí, Praha 13  č.inv. akce 11K6800",
-    "shortDescription": "Pokládka splaškové kanalizace dn300, pokládka vodovodního řádu.",
-    "longDescription": "Pokládka splaškové kanalizace dn300, Pokládka vodovodního řádu Realizace probíhala v období 2024. Generální dodavatel / partner: Subterra a.s.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "visible": true,
+    "name": "Výstavba kanalizace ulice Tělovýchovná a okolí, Praha 13",
+    "shortDescription": "Kompletní výstavba vodovodu a tlakové kanalizace – výkopy, pokládka, svařování, tlakové zkoušky.",
+    "longDescription": "Při budování nové infrastruktury v ulici Tělovýchovná a přilehlém okolí na Praze 13 jsme se postarali o klíčovou část podzemních inženýrských sítí. Naším úkolem byla kompletní výstavba nového vodovodu a realizace systému tlakové kanalizace. Práce zahrnovaly vše od přesných zemních výkopů přes odbornou pokládku a svařování potrubí až po tlakové zkoušky a finální hutněné zásypy. Všechny instalace byly provedeny s maximální precizností, aby sloužily bezproblémově další desítky let. Náš úsek díla byl dokončen v termínu a stavba byla odevzdána zcela bez žádných vad a nedodělků.",
     "subcontractor": "Subterra a.s.",
     "period": "2024",
     "type": "Kanalizace a vodovod",
     "images": [
-      "/images/vystavba_kanalizace_ulice_telovychovna_a_okoli_praha_13_c_inv_akce_11k6800_1.jpg"
+      "/images/telovychovna_new_1.png",
+      "/images/telovychovna_new_2.png",
+      "/images/telovychovna_new_3.png"
     ]
   },
   {
     "id": 16,
-    "name": "Zbiroh - Ulice Sládková",
-    "shortDescription": "Obnova místní komunikace včetně povrchů a obrubníků.",
-    "longDescription": "Obnova místní komunikace včetně povrchů a obrubníků Realizace probíhala v období 2025. Generální dodavatel / partner: Žadný. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Žadný",
+    "visible": true,
+    "name": "Rekonstrukce chodníků – ulice Sládkova a Muchova, Zbiroh",
+    "shortDescription": "Kompletní rekonstrukce chodníků – vybourání, štěrkodrtě, obrubníky, zámková dlažba.",
+    "longDescription": "V rámci této zakázky jsme pro město Zbiroh zajistili kompletní rekonstrukci chodníků v ulicích Sládkova a Muchova. Naše práce pokryly celý proces obnovy od úplného začátku. Odstartovali jsme vybouráním stávajících povrchů a precizní přípravou zemní pláně. Následně jsme zhotovili nové podkladní vrstvy ze štěrkodrtě a osadili betonové obrubníky. Jako finální krok proběhla pečlivá pokládka zámkové dlažby, která místním obyvatelům zajistí komfortní a bezpečný pohyb. Projekt jsme zakončili terénními úpravami okolí. Po provedení všech prací byla stavba úspěšně předána městu zcela bez vad a nedodělků.",
+    "subcontractor": "",
     "period": "2025",
     "type": "Rekonstrukce silnic",
     "images": [
       "/images/zbiroh_ulice_sladkova_1.jpg",
-      "/images/zbiroh_ulice_sladkova_2.jpg"
+      "/images/zbiroh_ulice_sladkova_2.jpg",
+      "/images/zbiroh_new_1.png",
+      "/images/zbiroh_new_2.png",
+      "/images/zbiroh_new_3.png",
+      "/images/zbiroh_new_4.png",
+      "/images/zbiroh_new_5.png",
+      "/images/zbiroh_new_6.png"
     ]
   },
   {
     "id": 17,
-    "name": "„Šlovice - chodník u silnice III/18032e",
-    "shortDescription": "Výstavba/rekonstrukce chodníku podél silnice III/18032e.",
-    "longDescription": "Výstavba/rekonstrukce chodníku podél silnice III/18032e Realizace probíhala v období 2024-2025. Generální dodavatel / partner: Žadný. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Žadný",
-    "period": "2024-2025",
+    "visible": true,
+    "name": "Šlovice – chodník u silnice III/18032e",
+    "shortDescription": "Výstavba nového chodníku podél silnice III/18032e – zemní práce, obrubníky, zámková dlažba.",
+    "longDescription": "V rámci této zakázky jsme pro město Dobřany zajistili výstavbu nového chodníku v obci Šlovice podél silnice III/18032e. Naše práce pokryly celý proces výstavby od úplného začátku. Odstartovali jsme zemními odkopávkami a precizní přípravou zemní pláně. Následně jsme zhotovili nové podkladní vrstvy ze štěrkodrtě a osadili betonové obrubníky. Jako finální krok proběhla pečlivá pokládka zámkové dlažby, která občanům zajistí komfortní a bezpečný pohyb podél komunikace. Projekt jsme zakončili terénními úpravami okolí. Po provedení všech prací byla stavba úspěšně předána městu zcela bez vad a nedodělků.",
+    "subcontractor": "",
+    "period": "2024–2025",
     "type": "Rekonstrukce silnic",
     "images": [
       "/images/slovice_chodnik_u_silnice_iii_18032e_1.jpg",
@@ -214,12 +222,13 @@
   },
   {
     "id": 18,
-    "name": "Novostavba viladomů Kobylisy- zemní práce ",
-    "shortDescription": "Zemní práce a příprava sítí pro viladomy v Kobylisích.",
-    "longDescription": "Zemní práce a příprava sítí pro viladomy v Kobylisích Realizace probíhala v období 2024. Generální dodavatel / partner: BAMMA s.r.o.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "visible": true,
+    "name": "Viladům Kobylisy – Zemní práce",
+    "shortDescription": "Precizní příprava území pro zakládání viladomu – hloubení jámy, výkopy, zásypy, terénní úpravy.",
+    "longDescription": "V pražských Kobylisích jsme úspěšně realizovali zemní práce pro projekt nového viladomu. Naší hlavní úlohou byla precizní příprava území pro zakládání stavby. Přesné hloubení stavební jámy i výkopy. Součástí naší dodávky byl také kompletní odvoz vytěženého materiálu, realizace zpětných zásypů s důkladným hutněním a finální hrubé terénní úpravy pozemku. Celé dílo bylo odevzdáno v domluveném termínu bez vad a nedodělků.",
     "subcontractor": "BAMMA s.r.o.",
     "period": "2024",
-    "type": "Rodinné domy",
+    "type": "Zemní práce",
     "images": [
       "/images/novostavba_viladomu_kobylisy_zemni_prace_1.jpg",
       "/images/novostavba_viladomu_kobylisy_zemni_prace_2.jpg",
@@ -228,113 +237,123 @@
   },
   {
     "id": 19,
-    "name": "Kladno Vrapická - Havarie - odvodnění ",
-    "shortDescription": "Havarijní zásah a odvodnění v ulici Vrapická – zemní práce.",
-    "longDescription": "Havarijní zásah a odvodnění v ulici Vrapická – zemní práce Realizace probíhala v období 2024. Generální dodavatel / partner: Subterra a.s.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "visible": false,
+    "name": "Kladno Vrapická - Havarie - odvodnění",
+    "shortDescription": "Havarijní zásah a odvodnění.",
+    "longDescription": "Havarijní zásah a odvodnění v ulici Vrapická.",
     "subcontractor": "Subterra a.s.",
     "period": "2024",
     "type": "Zemní práce",
-    "images": [
-      "/images/kladno_vrapicka_havarie_odvodneni_1.jpg"
-    ]
+    "images": []
   },
   {
     "id": 20,
-    "name": "Praha 10 Hotel one Hybersnká ",
-    "shortDescription": "Stavební úpravy infrastruktury a koordinace sítí v centru Prahy.",
-    "longDescription": "Stavební úpravy infrastruktury a koordinace sítí v centru Prahy Realizace probíhala v období 2021-2022. Generální dodavatel / partner: Subterra a.s.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "visible": false,
+    "name": "Praha 10 Hotel one Hybernská",
+    "shortDescription": "Stavební úpravy infrastruktury v centru Prahy.",
+    "longDescription": "Stavební úpravy infrastruktury a koordinace sítí v centru Prahy.",
     "subcontractor": "Subterra a.s.",
     "period": "2021-2022",
     "type": "Kanalizace a vodovod",
-    "images": [
-      "/images/praha_10_hotel_one_hybersnka_1.jpg"
-    ]
+    "images": []
   },
   {
     "id": 21,
-    "name": "Optimalizace traťovéhp úseku Praha Hostivař - Část EDEN",
-    "shortDescription": "Zemní práce a související činnosti v rámci optimalizace trati – část Eden.",
-    "longDescription": "Zemní práce a související činnosti v rámci optimalizace trati – část Eden Realizace probíhala v období 2021. Generální dodavatel / partner: Metrostav TBR a.s.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "visible": false,
+    "name": "Optimalizace traťového úseku Praha Hostivař – EDEN",
+    "shortDescription": "Zemní práce – část Eden.",
+    "longDescription": "Zemní práce a související činnosti v rámci optimalizace trati – část Eden.",
     "subcontractor": "Metrostav TBR a.s.",
     "period": "2021",
     "type": "Zemní práce",
-    "images": [
-      "/images/hostivar_eden_1.jpg"
-    ]
+    "images": []
   },
   {
     "id": 22,
-    "name": "Optimalizace traťovéhp úseku Praha Hostivař - Část Průběžná",
-    "shortDescription": "Zemní práce a příprava podloží v úseku Průběžná.",
-    "longDescription": "Zemní práce a příprava podloží v úseku Průběžná Realizace probíhala v období 2020-2021. Generální dodavatel / partner: Metrostav TBR a.s.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "visible": false,
+    "name": "Optimalizace traťového úseku Praha Hostivař – Průběžná",
+    "shortDescription": "Zemní práce – část Průběžná.",
+    "longDescription": "Zemní práce a příprava podloží v úseku Průběžná.",
     "subcontractor": "Metrostav TBR a.s.",
     "period": "2020-2021",
     "type": "Zemní práce",
-    "images": [
-      "/images/prubezna_1.jpg",
-      "/images/prubezna_2.jpg",
-      "/images/prubezna_3.jpg"
-    ]
+    "images": []
   },
   {
     "id": 23,
-    "name": "Optimalizace traťovéhp úseku Praha Hostivař - Část Triangel ",
-    "shortDescription": "Zemní práce a úpravy terénu v části Triangel.",
-    "longDescription": "Zemní práce a úpravy terénu v části Triangel Realizace probíhala v období 2021. Generální dodavatel / partner: Metrostav TBR a.s.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "visible": false,
+    "name": "Optimalizace traťového úseku Praha Hostivař – Triangel",
+    "shortDescription": "Zemní práce – část Triangel.",
+    "longDescription": "Zemní práce a úpravy terénu v části Triangel.",
     "subcontractor": "Metrostav TBR a.s.",
     "period": "2021",
     "type": "Zemní práce",
-    "images": [
-      "/images/hostivar_triangel_1.jpg",
-      "/images/hostivar_triangel_2.jpg"
-    ]
+    "images": []
   },
   {
     "id": 24,
-    "name": "Strakonická, podchod D4 - Mimoúrovňové křížení",
-    "shortDescription": "Zemní práce, pokládka deštové kanalizace dn400.",
-    "longDescription": "Zemní práce, pokládka deštové kanalizace dn400 Realizace probíhala v období 2024-2025. Generální dodavatel / partner: Metrostav TBR a.s.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "visible": true,
+    "name": "I/4 – mimoúrovňové křížení (podchod), Strakonická, Praha Zbraslav",
+    "shortDescription": "Zemní práce a výstavba kanalizace pro nový podchod pro pěší a cyklisty pod silnicí I/4.",
+    "longDescription": "Při náročné výstavbě nového podchodu pro pěší a cyklisty pod vytíženou silnicí I/4 na Strakonické ulici v Praze-Zbraslavi jsme měli na starosti důležité přípravné a infrastrukturní práce. Naším hlavním úkolem byla kompletní realizace zemních prací, která zahrnovala hluboké výkopy, odtěžení obrovského množství materiálu a celkovou přípravu terénu pro budoucí konstrukci mimoúrovňového křížení. Na tyto práce úzce navazovalo vybudování zcela nové sítě kanalizace, která se nyní stará o bezpečné a plynulé odvodnění celého nového podchodu. Všechny námi prováděné činnosti proběhly v požadované kvalitě a celá stavba byla úspěšně odevzdána zcela bez žádných vad a nedodělků.",
     "subcontractor": "Metrostav TBR a.s.",
-    "period": "2024-2025",
-    "type": "Kanalizace a vodovod",
+    "period": "2024–2026",
+    "type": "Zemní práce",
     "images": [
-      "/images/strakonicka_1.jpg"
+      "/images/strakonicka_1.jpg",
+      "/images/strakonicka_2.jpg",
+      "/images/strakonicka_new_1.png",
+      "/images/strakonicka_new_2.png",
+      "/images/strakonicka_new_3.png",
+      "/images/strakonicka_new_4.png"
     ]
   },
   {
     "id": 25,
+    "visible": false,
     "name": "Dobříš – Náměstí",
-    "shortDescription": "Rekonstrukce náměstí: výměna sítí, nové povrchy a prvky.",
-    "longDescription": "Rekonstrukce náměstí: výměna sítí, nové povrchy a prvky Realizace probíhala v období 2023. Generální dodavatel / partner: Metrostav TBR a.s.. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
+    "shortDescription": "Rekonstrukce náměstí.",
+    "longDescription": "Rekonstrukce náměstí: výměna sítí, nové povrchy a prvky.",
     "subcontractor": "Metrostav TBR a.s.",
     "period": "2023",
     "type": "Rekonstrukce silnic",
-    "images": [
-      "/images/dobris_namesti_1.jpg"
-    ]
+    "images": []
   },
   {
     "id": 26,
+    "visible": false,
     "name": "Všenory",
-    "shortDescription": "Příprava stavebních parcel, zemní práce a nivelace terénu.",
-    "longDescription": "Příprava stavebních parcel, zemní práce a nivelace terénu Realizace probíhala v období 2024-2025. Generální dodavatel / partner: Nikdo. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Nikdo",
+    "shortDescription": "Zemní práce a nivelace terénu.",
+    "longDescription": "Příprava stavebních parcel, zemní práce a nivelace terénu.",
+    "subcontractor": "",
     "period": "2024-2025",
     "type": "Zemní práce",
-    "images": [
-      "/images/vsenory_1.jpg"
-    ]
+    "images": []
   },
   {
     "id": 27,
+    "visible": false,
     "name": "Řevnice",
-    "shortDescription": "Rozšíření stávajícího vodovodu včetně výkopových prací a napojení.",
-    "longDescription": "Rozšíření stávajícího vodovodu včetně výkopových prací a napojení Realizace probíhala v období 2025-2026. Generální dodavatel / partner: Nikdo. Důraz byl kladen na bezpečnost, kvalitu provedení a koordinaci s dotčenými subjekty.",
-    "subcontractor": "Nikdo",
+    "shortDescription": "Rozšíření vodovodu.",
+    "longDescription": "Rozšíření stávajícího vodovodu včetně výkopových prací a napojení.",
+    "subcontractor": "",
     "period": "2025-2026",
     "type": "Kanalizace a vodovod",
+    "images": []
+  },
+  {
+    "id": 28,
+    "visible": true,
+    "name": "Dobříš – Rekonstrukce Truhlářské ulice",
+    "shortDescription": "Kompletní rekonstrukce ulice – obnova uličního profilu, parkovací místa, odvodnění, veřejné osvětlení.",
+    "longDescription": "V rámci tohoto projektu jsme provedli kompletní rekonstrukci Truhlářské ulice, která se nachází v klidné rezidenční zástavbě nedaleko rybníka Papež. Naším úkolem byla celková obnova uličního profilu, která zahrnovala výstavbu nových parkovacích míst a zajištění spolehlivého odvodnění svedeného do stávající kanalizace. Pro zvýšení bezpečnosti a komfortu obyvatel jsme také realizovali doplnění a montáž sítě veřejného osvětlení. Stavba byla provedená bez žádných vad a nedodělků.",
+    "subcontractor": "",
+    "period": "2025",
+    "type": "Rekonstrukce silnic",
     "images": [
-      "/images/revnice_1.jpg"
+      "/images/dobris_truhlarská_1.png",
+      "/images/dobris_truhlarská_2.png",
+      "/images/dobris_truhlarská_3.png"
     ]
   }
 ]

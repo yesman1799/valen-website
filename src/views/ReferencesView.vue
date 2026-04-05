@@ -54,7 +54,9 @@ export default {
     const router = useRouter();
     const selectedCategory = ref('Vše');
 
-    const categories = [...new Set(references.map(ref => ref.type))];
+    const visibleReferences = references.filter(ref => ref.visible !== false);
+
+    const categories = [...new Set(visibleReferences.map(ref => ref.type))];
 
     const selectCategory = (category) => {
       selectedCategory.value = category;
@@ -62,9 +64,9 @@ export default {
 
     const filteredReferences = computed(() => {
       if (selectedCategory.value === 'Vše') {
-        return references;
+        return visibleReferences;
       }
-      return references.filter(ref => ref.type === selectedCategory.value);
+      return visibleReferences.filter(ref => ref.type === selectedCategory.value);
     });
 
     const goToReference = (id) => {
@@ -79,7 +81,7 @@ export default {
     };
 
     return {
-      references,
+      visibleReferences,
       categories,
       selectedCategory,
       selectCategory,
