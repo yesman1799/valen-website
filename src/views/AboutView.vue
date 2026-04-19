@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-50">
     <!-- Page header -->
     <div class="pt-32 pb-12 px-6 text-center bg-white border-b border-gray-100">
-      <h1 class="text-4xl font-extrabold text-textDark tracking-tight mb-3">O nás</h1>
+      <h1 class="text-4xl font-extrabold text-secondary tracking-tight mb-3">O nás</h1>
       <div class="w-14 h-1 bg-secondary rounded-full mx-auto"></div>
       <p class="mt-4 text-gray-500 max-w-xl mx-auto">Stavíme na zkušenostech, moderní technice a férovém přístupu</p>
     </div>
@@ -12,7 +12,7 @@
       <div class="flex flex-col md:flex-row items-center gap-12 mb-16">
         <img src="/images/about-us.jpg" alt="O nás" class="w-full md:w-1/2 rounded-2xl shadow-lg object-cover" style="max-height:420px;" />
         <div class="md:w-1/2">
-          <h2 class="text-2xl font-bold text-textDark mb-4">Kdo jsme</h2>
+          <h2 class="text-2xl font-bold text-secondary mb-4">Kdo jsme</h2>
           <p class="text-gray-600 leading-relaxed mb-4">
             VALEN s.r.o. je stavební společnost s dlouholetou historií a zkušenostmi v oblasti výstavby, rekonstrukcí a zemních prací.
             Naše firma se specializuje na moderní technologie, kvalitní materiály a precizní práci, abychom zajistili spokojenost našich klientů.
@@ -34,7 +34,7 @@
 
       <!-- Why us -->
       <div class="bg-white rounded-2xl p-10 shadow-sm border border-gray-100">
-        <h2 class="text-2xl font-bold text-textDark text-center mb-8">Proč si vybrat nás?</h2>
+        <h2 class="text-2xl font-bold text-secondary text-center mb-8">Proč si vybrat nás?</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div v-for="reason in reasons" :key="reason.title" class="flex flex-col items-center text-center">
             <div class="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center mb-4">
@@ -42,7 +42,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" :d="reason.icon" />
               </svg>
             </div>
-            <h3 class="font-bold text-textDark mb-2">{{ reason.title }}</h3>
+            <h3 class="font-bold text-secondary mb-2">{{ reason.title }}</h3>
             <p class="text-gray-500 text-sm leading-relaxed">{{ reason.description }}</p>
           </div>
         </div>

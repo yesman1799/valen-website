@@ -1,7 +1,7 @@
 <template>
   <section class="text-center">
     <div class="mb-12">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-textDark">Naše Služby</h2>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-secondary">Naše Služby</h2>
       <div class="mt-3 w-14 h-1 bg-secondary rounded-full mx-auto"></div>
     </div>
 
@@ -16,7 +16,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" :d="service.icon" />
           </svg>
         </div>
-        <h3 class="text-lg font-bold text-textDark mb-3">{{ service.title }}</h3>
+        <h3 class="text-lg font-bold text-secondary mb-3">{{ service.title }}</h3>
         <p class="text-gray-500 text-sm leading-relaxed">{{ service.description }}</p>
       </div>
     </div>

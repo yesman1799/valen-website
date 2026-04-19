@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-50">
     <!-- Page header -->
     <div class="pt-32 pb-12 px-6 text-center bg-white border-b border-gray-100">
-      <h1 class="text-4xl font-extrabold text-textDark tracking-tight mb-3">Kontakt</h1>
+      <h1 class="text-4xl font-extrabold text-secondary tracking-tight mb-3">Kontakt</h1>
       <div class="w-14 h-1 bg-secondary rounded-full mx-auto"></div>
       <p class="mt-4 text-gray-500 max-w-xl mx-auto">Jsme tu pro vás — ozvěte se nám</p>
     </div>
@@ -33,7 +33,7 @@
     
     <!-- Contact Form -->
     <div class="bg-white shadow-sm rounded-2xl border border-gray-100 p-6 sm:p-10">
-      <h2 class="text-2xl font-bold text-textDark mb-6 text-center">Napište nám</h2>
+      <h2 class="text-2xl font-bold text-secondary mb-6 text-center">Napište nám</h2>
 
       <form @submit.prevent="sendEmail" class="flex flex-col gap-4 max-w-lg mx-auto">
         <input v-model="name" type="text" placeholder="Vaše jméno" class="px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary/30 focus:border-secondary text-sm transition">

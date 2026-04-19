@@ -2,7 +2,7 @@
   <section class="text-center">
     <!-- Section heading -->
     <div class="mb-12">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-textDark">O nás</h2>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-secondary">O nás</h2>
       <div class="mt-3 w-14 h-1 bg-secondary rounded-full mx-auto"></div>
     </div>
 
@@ -18,7 +18,7 @@
             <path stroke-linecap="round" stroke-linejoin="round" :d="about.icon" />
           </svg>
         </div>
-        <h3 class="text-xl font-bold text-textDark mb-3">{{ about.title }}</h3>
+        <h3 class="text-xl font-bold text-secondary mb-3">{{ about.title }}</h3>
         <p class="text-gray-500 leading-relaxed text-sm">{{ about.description }}</p>
       </div>
     </div>

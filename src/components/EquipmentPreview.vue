@@ -1,7 +1,7 @@
 <template>
   <section class="text-center">
     <div class="mb-12">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-textDark">Naše Technika</h2>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-secondary">Naše Technika</h2>
       <div class="mt-3 w-14 h-1 bg-secondary rounded-full mx-auto"></div>
       <p class="mt-4 text-gray-500 max-w-xl mx-auto text-sm">Moderní vozový park pro každý typ stavebního projektu</p>
     </div>
@@ -22,7 +22,7 @@
         <div class="h-px bg-gradient-to-r from-transparent via-gray-100 to-transparent mx-4"></div>
         <div class="p-5 text-left">
           <span class="text-xs text-secondary font-semibold uppercase tracking-wider">{{ item.type }}</span>
-          <h3 class="text-base font-bold text-textDark mt-1">{{ item.name }}</h3>
+          <h3 class="text-base font-bold text-secondary mt-1">{{ item.name }}</h3>
         </div>
       </div>
     </div>

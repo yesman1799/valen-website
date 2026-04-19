@@ -3,7 +3,7 @@
 
     <!-- Page Header -->
     <div class="pt-32 pb-10 px-6 text-center">
-      <h1 class="text-4xl font-extrabold text-textDark tracking-tight mb-3">
+      <h1 class="text-4xl font-extrabold text-secondary tracking-tight mb-3">
         Stavební Technika
       </h1>
       <p class="text-gray-500 text-lg max-w-xl mx-auto">
@@ -66,7 +66,7 @@
 
           <!-- Content -->
           <div class="p-5 flex flex-col flex-1">
-            <h2 class="text-lg font-bold text-textDark mb-3 leading-tight">{{ item.name }}</h2>
+            <h2 class="text-lg font-bold text-secondary mb-3 leading-tight">{{ item.name }}</h2>
 
             <!-- Key specs always visible — first 2 -->
             <div class="grid grid-cols-2 gap-2 mb-4">

@@ -2,7 +2,7 @@
   <div class="min-h-screen bg-gray-50">
     <!-- Page header -->
     <div class="pt-32 pb-12 px-6 text-center bg-white border-b border-gray-100">
-      <h1 class="text-4xl font-extrabold text-textDark tracking-tight mb-3">Naše Služby</h1>
+      <h1 class="text-4xl font-extrabold text-secondary tracking-tight mb-3">Naše Služby</h1>
       <div class="w-14 h-1 bg-secondary rounded-full mx-auto"></div>
       <p class="mt-4 text-gray-500 max-w-xl mx-auto">Komplexní stavební řešení od zemních prací po dokončovací práce</p>
     </div>
@@ -25,7 +25,7 @@
               <path stroke-linecap="round" stroke-linejoin="round" :d="service.icon" />
             </svg>
           </div>
-          <h3 class="text-lg font-bold text-textDark mb-3">{{ service.title }}</h3>
+          <h3 class="text-lg font-bold text-secondary mb-3">{{ service.title }}</h3>
           <p class="text-gray-500 text-sm leading-relaxed">{{ service.description }}</p>
         </div>
       </div>

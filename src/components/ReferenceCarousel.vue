@@ -1,7 +1,7 @@
 <template>
   <section class="text-center">
     <div class="mb-12">
-      <h2 class="text-3xl md:text-4xl font-extrabold text-textDark">Vybrané Reference</h2>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-secondary">Vybrané Reference</h2>
       <div class="mt-3 w-14 h-1 bg-secondary rounded-full mx-auto"></div>
       <p class="mt-4 text-gray-500 max-w-xl mx-auto text-sm">Realizované projekty po celé České republice</p>
     </div>
