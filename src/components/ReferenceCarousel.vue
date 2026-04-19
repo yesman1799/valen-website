@@ -10,7 +10,7 @@
       <router-link
         v-for="(ref, index) in references"
         :key="index"
-        :to="`/references/${ref.slug}`"
+        :to="`/reference/${ref.id}`"
         class="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block"
         style="height: 260px;"
       >
@@ -43,22 +43,22 @@ export default {
   setup() {
     const references = [
       {
+        id: 1,
         title: 'Aviatická letiště',
         year: '2025',
-        slug: 'aviaticka-letiste',
-        image: '/images/aviaticka_1.png'
-      },
-      {
-        title: 'Dobříš – Rekonstrukce Truhlářské ulice',
-        year: '2025',
-        slug: 'dobris-truhlarská',
         image: '/images/d7_muk_aviaticka_lavka_letiste_praha_1.jpg'
       },
       {
+        id: 28,
+        title: 'Dobříš – Rekonstrukce Truhlářské ulice',
+        year: '2025',
+        image: '/images/dobris_truhlarsk_1.png'
+      },
+      {
+        id: 18,
         title: 'Viladům Kobylisy – Zemní práce',
         year: '2024',
-        slug: 'viladum-kobylisy',
-        image: '/images/hostivar_1.jpg'
+        image: '/images/novostavba_viladomu_kobylisy_zemni_prace_1.jpg'
       }
     ];
 
