@@ -1,22 +1,38 @@
 <template>
   <section class="text-center">
-    <h2 class="text-4xl font-bold text-secondary mb-6">Reference</h2>
-    <div class="mt-10 grid grid-cols-1 md:grid-cols-3 gap-8">
-      <div
-        v-for="(reference, index) in references"
-        :key="index"
-        class="relative p-8 bg-gradient-to-br from-white to-gray-100 rounded-xl shadow-md animate-fade-in-up"
-      >
-        <h3 class="text-2xl font-bold text-secondary mb-4">{{ reference.title }}</h3>
-        <p class="text-gray-600">{{ reference.description }}</p>
-      </div>
+    <div class="mb-12">
+      <h2 class="text-3xl md:text-4xl font-extrabold text-textDark">Vybrané Reference</h2>
+      <div class="mt-3 w-14 h-1 bg-secondary rounded-full mx-auto"></div>
+      <p class="mt-4 text-gray-500 max-w-xl mx-auto text-sm">Realizované projekty po celé České republice</p>
     </div>
-    <div class="mt-10">
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <router-link
+        v-for="(ref, index) in references"
+        :key="index"
+        :to="`/references/${ref.slug}`"
+        class="group relative rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 block"
+        style="height: 260px;"
+      >
+        <img
+          :src="ref.image"
+          :alt="ref.title"
+          class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+        <div class="absolute bottom-0 left-0 right-0 p-5 text-left">
+          <span class="text-xs text-primary font-semibold uppercase tracking-wider">{{ ref.year }}</span>
+          <h3 class="text-white font-bold text-lg mt-1 leading-tight">{{ ref.title }}</h3>
+        </div>
+      </router-link>
+    </div>
+
+    <div class="mt-12">
       <router-link
         to="/references"
-        class="inline-block bg-secondary text-white px-8 py-3 rounded-xl text-lg font-semibold hover:bg-primary transition"
+        class="inline-block bg-secondary text-white px-8 py-3.5 rounded-xl font-semibold hover:bg-opacity-90 transition-all duration-200 shadow-sm"
       >
-        Více referencí
+        Všechny reference
       </router-link>
     </div>
   </section>
@@ -27,39 +43,26 @@ export default {
   setup() {
     const references = [
       {
-        title: 'Strakonická',
-        description: 'Výstavba kanalizace, vodovodu a zemní práce.'
+        title: 'Aviatická letiště',
+        year: '2025',
+        slug: 'aviaticka-letiste',
+        image: '/images/aviaticka_1.png'
       },
       {
-        title: 'Dvorecký most',
-        description: 'Provádění kanalizace na silnici II. třídy.'
+        title: 'Dobříš – Rekonstrukce Truhlářské ulice',
+        year: '2025',
+        slug: 'dobris-truhlarská',
+        image: '/images/d7_muk_aviaticka_lavka_letiste_praha_1.jpg'
       },
       {
-        title: 'Řeporyje',
-        description: 'Výstavba kanalizační a vodovodní přípojky pro rodinné domy.'
+        title: 'Viladům Kobylisy – Zemní práce',
+        year: '2024',
+        slug: 'viladum-kobylisy',
+        image: '/images/hostivar_1.jpg'
       }
     ];
 
-    return {
-      references
-    };
+    return { references };
   }
 };
 </script>
-
-<style scoped>
-@keyframes fade-in-up {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fade-in-up {
-  animation: fade-in-up 0.8s ease forwards;
-}
-</style>

@@ -1,8 +1,14 @@
 <template>
-  <div class="container mx-auto p-6 sm:p-8 pt-32 sm:pt-40 md:pt-48">
-    <h1 class="text-4xl sm:text-5xl font-extrabold text-center mb-10 text-secondary tracking-wide">Kontakt</h1>
-    
-    <div class="bg-white shadow-xl rounded-lg p-4 sm:p-6 md:p-10 flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+  <div class="min-h-screen bg-gray-50">
+    <!-- Page header -->
+    <div class="pt-32 pb-12 px-6 text-center bg-white border-b border-gray-100">
+      <h1 class="text-4xl font-extrabold text-textDark tracking-tight mb-3">Kontakt</h1>
+      <div class="w-14 h-1 bg-secondary rounded-full mx-auto"></div>
+      <p class="mt-4 text-gray-500 max-w-xl mx-auto">Jsme tu pro vás — ozvěte se nám</p>
+    </div>
+
+    <div class="max-w-5xl mx-auto px-6 py-12">
+    <div class="bg-white shadow-sm rounded-2xl border border-gray-100 p-6 sm:p-10 flex flex-col md:flex-row justify-between items-start gap-8 mb-8">
       <!-- Contact Information -->
       <div class="w-full md:w-1/2 text-center md:text-left">
         <h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4 sm:mb-6">VALEN s.r.o.</h2>
@@ -26,25 +32,22 @@
     </div>
     
     <!-- Contact Form -->
-    <div class="bg-gray-100 shadow-md rounded-lg p-4 sm:p-6 md:p-10 mt-8 sm:mt-10">
-      <h2 class="text-2xl sm:text-3xl font-semibold text-gray-800 mb-4 sm:mb-6 text-center">Napište nám</h2>
+    <div class="bg-white shadow-sm rounded-2xl border border-gray-100 p-6 sm:p-10">
+      <h2 class="text-2xl font-bold text-textDark mb-6 text-center">Napište nám</h2>
 
-      <!-- beze změny vzhledu -->
-      <form @submit.prevent="sendEmail" class="flex flex-col space-y-3 sm:space-y-4">
-        <input v-model="name" type="text" placeholder="Vaše jméno" class="p-2 sm:p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
-        <input v-model="email" type="email" placeholder="Váš e-mail" class="p-2 sm:p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary">
-        <textarea v-model="message" placeholder="Vaše zpráva" rows="4" class="p-2 sm:p-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary"></textarea>
+      <form @submit.prevent="sendEmail" class="flex flex-col gap-4 max-w-lg mx-auto">
+        <input v-model="name" type="text" placeholder="Vaše jméno" class="px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary/30 focus:border-secondary text-sm transition">
+        <input v-model="email" type="email" placeholder="Váš e-mail" class="px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary/30 focus:border-secondary text-sm transition">
+        <textarea v-model="message" placeholder="Vaše zpráva" rows="5" class="px-4 py-3 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-secondary/30 focus:border-secondary text-sm transition resize-none"></textarea>
 
-        <!-- HONEYPOT (skryté; nemění layout) -->
         <input v-model="hp_field" type="text" autocomplete="off" tabindex="-1" class="hidden" />
-
-        <!-- Turnstile mount (skrytý; token generuje na pozadí) -->
         <div id="cf-turnstile" class="hidden"></div>
 
-        <button type="submit" :disabled="sending" class="bg-secondary text-white px-4 sm:px-6 py-2 sm:py-3 rounded-lg font-semibold hover:bg-primary transition">
+        <button type="submit" :disabled="sending" class="bg-secondary text-white py-3.5 rounded-xl font-semibold hover:bg-opacity-90 transition-all duration-200 shadow-sm disabled:opacity-60">
           {{ sending ? 'Odesílám…' : 'Odeslat zprávu' }}
         </button>
       </form>
+    </div>
     </div>
   </div>
 </template>
