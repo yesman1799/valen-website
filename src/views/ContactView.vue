@@ -85,8 +85,9 @@ export default {
       if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(this.email)) return alert('Zadejte platný e‑mail.');
       if (this.message.trim().length < 10) return alert('Zpráva je příliš krátká.');
 
+      // Výchozí je mail.php na stejném hostingu; VITE_API_BASE přepne na Node API (src/server).
       const apiBase = import.meta.env.VITE_API_BASE || '';
-      if (!apiBase) return alert('Chybí VITE_API_BASE – nastav v .env.');
+      const endpoint = apiBase ? `${apiBase}/api/contact` : '/mail.php';
 
       this.sending = true;
       try {
@@ -98,14 +99,14 @@ export default {
           captchaToken: this.captchaToken   // Turnstile token
         };
 
-        const res = await fetch(`${apiBase}/api/contact`, {
+        const res = await fetch(endpoint, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload),
           keepalive: true
         });
 
-        const data = await res.json();
+        const data = await res.json().catch(() => ({}));
         if (!res.ok || !data.ok) throw new Error(data?.message || 'Odeslání selhalo.');
 
         // úspěch – nic vizuálně nepřidávám; jen alert + reset
